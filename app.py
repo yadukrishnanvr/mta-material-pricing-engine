@@ -58,6 +58,47 @@ class EscalationRequest(BaseModel):
 def health_check():
     return {"status": "healthy", "service": "MTA Pricing Engine", "version": "2.6.0"}
 
+@app.get("/api/admin/db-status")
+def get_db_status():
+    from macro_engine.database_manager import get_connection, IS_POSTGRES, DATABASE_URL
+    try:
+        conn = get_connection()
+        cur = conn.cursor()
+        
+        # Check active dialect
+        dialect = "PostgreSQL" if IS_POSTGRES else "SQLite"
+        
+        # Query tables
+        if IS_POSTGRES:
+            cur.execute("SELECT table_name FROM information_schema.tables WHERE table_schema = 'public';")
+            tables = [r[0] for r in cur.fetchall()]
+        else:
+            cur.execute("SELECT name FROM sqlite_master WHERE type='table';")
+            tables = [r[0] for r in cur.fetchall()]
+            
+        # Collect row counts per table
+        counts = {}
+        for t in tables:
+            try:
+                cur.execute(f"SELECT COUNT(*) FROM {t}")
+                counts[t] = cur.fetchone()[0]
+            except Exception as ex:
+                counts[t] = f"Error: {ex}"
+                
+        conn.close()
+        return {
+            "status": "connected",
+            "active_database": dialect,
+            "has_database_url": bool(DATABASE_URL),
+            "tables_found": tables,
+            "row_counts": counts
+        }
+    except Exception as e:
+        return {
+            "status": "connection_failed",
+            "error": str(e)
+        }
+
 @app.get("/api/states")
 def list_states():
     return {"states": sorted(list(engine.df_baselines.index))}
