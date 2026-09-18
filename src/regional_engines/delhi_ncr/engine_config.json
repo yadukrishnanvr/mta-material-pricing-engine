@@ -1,0 +1,18 @@
+{
+  "state_name": "Delhi NCR",
+  "zone": "Zone 3 Expansion (Northern Gangetic Sink)",
+  "statutory_sources": [
+    "Central Public Works Department Delhi Schedule of Rates (CPWD DSR 2023/2024)",
+    "Delhi PWD Schedule of Rates",
+    "Delhi Gazette Minimum Wage Rates for Unskilled Labour"
+  ],
+  "ibm_anchor_weight": {
+    "limestone_share": 0.0,
+    "iron_ore_share": 0.0
+  },
+  "lead_clusters": [
+    "Kotputli/Alwar Aggregate Sourcing Inflows",
+    "Loni/Ghaziabad Steel Stockyards",
+    "Okhla/Faridabad Grinding Terminals"
+  ]
+}

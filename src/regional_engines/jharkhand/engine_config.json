@@ -1,0 +1,18 @@
+{
+  "state_name": "Jharkhand",
+  "zone": "Zone 9 (Eastern Mineral Anchor & Aggregates Basin)",
+  "statutory_sources": [
+    "Jharkhand PWD (Road Construction Dept) Schedule of Rates (JSR)",
+    "Jharkhand State Mineral Development Corporation (JSMDC) E-Sand Gazettes",
+    "Jharkhand Labour Commissioner Minimum Wages Notifications"
+  ],
+  "ibm_anchor_weight": {
+    "iron_ore_share": 0.112,
+    "limestone_share": 0.015
+  },
+  "lead_clusters": [
+    "Pakur Black Stone Aggregate Hub",
+    "Ramgarh/Bokaro Induction Furnace Belt",
+    "Chaibasa Clinker Belt"
+  ]
+}

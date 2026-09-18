@@ -1,0 +1,19 @@
+{
+  "state_name": "Assam",
+  "zone": "Zone 10 (North-Eastern Gateway)",
+  "statutory_sources": [
+    "Assam PWD Schedule of Rates (APWD Building & Road SOR)",
+    "Assam Minor Mineral Concession Rules Gazettes",
+    "Assam Labour Commissioner Minimum Wage Notifications"
+  ],
+  "ibm_anchor_weight": {
+    "limestone_share": 0.015,
+    "iron_ore_share": 0.0
+  },
+  "lead_clusters": [
+    "Guwahati-Amingaon Steel Mandis",
+    "Brahmaputra River Sand Basins",
+    "Bokajan Clinker Belt"
+  ],
+  "default_terrain": "rolling"
+}

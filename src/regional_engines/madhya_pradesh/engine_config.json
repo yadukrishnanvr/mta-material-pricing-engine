@@ -1,0 +1,18 @@
+{
+  "state_name": "Madhya Pradesh",
+  "zone": "Zone 5 (Central Limestone & Thermal Corridor)",
+  "statutory_sources": [
+    "MP PWD Schedule of Rates (SOR Buildings & Bridges)",
+    "MP Mineral Resources Department Minor Mineral Rules",
+    "Labour Commissioner MP Gazette Minimum Wages"
+  ],
+  "ibm_anchor_weight": {
+    "limestone_share": 0.139,
+    "iron_ore_share": 0.025
+  },
+  "lead_clusters": [
+    "Rewa-Satna Clinker Belt",
+    "Jabalpur Aggregates",
+    "Pithampur/Indore Industrial Stockyards"
+  ]
+}

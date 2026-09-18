@@ -1,0 +1,25 @@
+{
+  "state_name": "Rajasthan",
+  "zone": "Northern Gangetic / Western Ridge",
+  "statutory_sources": [
+    "Rajasthan PWD Schedule of Rates (BSR Road & Building)",
+    "Department of Mines and Geology (DMG Rajasthan) DSRs",
+    "Rajasthan State Mines & Minerals Ltd (RSMML) Gazettes"
+  ],
+  "ibm_anchor_weight": {
+    "limestone_share": 0.23,
+    "iron_ore_share": 0.024
+  },
+  "primary_hubs": [
+    "Nimbahera-Chittorgarh Clinker Hub",
+    "Kotputli Extraction Belt",
+    "Alwar Aggregate Clusters"
+  ],
+  "cement_base_inr_mt": 4950.0,
+  "steel_rebar_inr_mt": 54000.0,
+  "coarse_metal_20mm_cum": 460.0,
+  "river_sand_m_sand_cum": 580.0,
+  "handling_labor_floor_day": 480.0,
+  "conveyance_model": "Rajasthan BSR Lead Matrix (Base 6.80 INR/t-km down to 4.10 INR/t-km)",
+  "terrain_friction": 1.1
+}

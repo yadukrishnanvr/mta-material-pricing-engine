@@ -1,0 +1,205 @@
+timestamp,date,state,commodity,brand,tier,standard,price_inr_per_mt,source
+2026-07-02 10:00:00,2026-07-02,Maharashtra,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,57800.0,Empirical Mandi / Stockyard Registry
+2026-07-09 10:00:00,2026-07-09,Maharashtra,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,58000.0,Empirical Mandi / Stockyard Registry
+2026-07-16 10:00:00,2026-07-16,Maharashtra,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,57850.0,Empirical Mandi / Stockyard Registry
+2026-07-23 10:00:00,2026-07-23,Maharashtra,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,57950.0,Empirical Mandi / Stockyard Registry
+2026-07-30 10:00:00,2026-07-30,Maharashtra,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,58300.0,Empirical Mandi / Stockyard Registry
+2026-08-06 10:00:00,2026-08-06,Maharashtra,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,58500.0,Empirical Mandi / Stockyard Registry
+2026-08-13 10:00:00,2026-08-13,Maharashtra,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,58400.0,Empirical Mandi / Stockyard Registry
+2026-08-20 10:00:00,2026-08-20,Maharashtra,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,58450.0,Empirical Mandi / Stockyard Registry
+2026-08-27 10:00:00,2026-08-27,Maharashtra,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,58600.0,Empirical Mandi / Stockyard Registry
+2026-09-03 10:00:00,2026-09-03,Maharashtra,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,58900.0,Empirical Mandi / Stockyard Registry
+2026-09-10 10:00:00,2026-09-10,Maharashtra,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,59000.0,Empirical Mandi / Stockyard Registry
+2026-09-17 10:00:00,2026-09-17,Maharashtra,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,59250.0,Empirical Mandi / Stockyard Registry
+2026-07-02 10:00:00,2026-07-02,Maharashtra,STEEL,JSW Neosteel (Primary),Primary Integrated,IS 1786 Fe-500D,57100.0,Empirical Mandi / Stockyard Registry
+2026-07-09 10:00:00,2026-07-09,Maharashtra,STEEL,JSW Neosteel (Primary),Primary Integrated,IS 1786 Fe-500D,57250.0,Empirical Mandi / Stockyard Registry
+2026-07-16 10:00:00,2026-07-16,Maharashtra,STEEL,JSW Neosteel (Primary),Primary Integrated,IS 1786 Fe-500D,57150.0,Empirical Mandi / Stockyard Registry
+2026-07-23 10:00:00,2026-07-23,Maharashtra,STEEL,JSW Neosteel (Primary),Primary Integrated,IS 1786 Fe-500D,57270.0,Empirical Mandi / Stockyard Registry
+2026-07-30 10:00:00,2026-07-30,Maharashtra,STEEL,JSW Neosteel (Primary),Primary Integrated,IS 1786 Fe-500D,57550.0,Empirical Mandi / Stockyard Registry
+2026-08-06 10:00:00,2026-08-06,Maharashtra,STEEL,JSW Neosteel (Primary),Primary Integrated,IS 1786 Fe-500D,57700.0,Empirical Mandi / Stockyard Registry
+2026-08-13 10:00:00,2026-08-13,Maharashtra,STEEL,JSW Neosteel (Primary),Primary Integrated,IS 1786 Fe-500D,57620.0,Empirical Mandi / Stockyard Registry
+2026-08-20 10:00:00,2026-08-20,Maharashtra,STEEL,JSW Neosteel (Primary),Primary Integrated,IS 1786 Fe-500D,57690.0,Empirical Mandi / Stockyard Registry
+2026-08-27 10:00:00,2026-08-27,Maharashtra,STEEL,JSW Neosteel (Primary),Primary Integrated,IS 1786 Fe-500D,57810.0,Empirical Mandi / Stockyard Registry
+2026-09-03 10:00:00,2026-09-03,Maharashtra,STEEL,JSW Neosteel (Primary),Primary Integrated,IS 1786 Fe-500D,58030.0,Empirical Mandi / Stockyard Registry
+2026-09-10 10:00:00,2026-09-10,Maharashtra,STEEL,JSW Neosteel (Primary),Primary Integrated,IS 1786 Fe-500D,58110.0,Empirical Mandi / Stockyard Registry
+2026-09-17 10:00:00,2026-09-17,Maharashtra,STEEL,JSW Neosteel (Primary),Primary Integrated,IS 1786 Fe-500D,58310.0,Empirical Mandi / Stockyard Registry
+2026-07-02 10:00:00,2026-07-02,Maharashtra,STEEL,SAIL / RINL Vizag (PSU),Primary PSU,IS 1786 Fe-500D,55800.0,Empirical Mandi / Stockyard Registry
+2026-07-09 10:00:00,2026-07-09,Maharashtra,STEEL,SAIL / RINL Vizag (PSU),Primary PSU,IS 1786 Fe-500D,55850.0,Empirical Mandi / Stockyard Registry
+2026-07-16 10:00:00,2026-07-16,Maharashtra,STEEL,SAIL / RINL Vizag (PSU),Primary PSU,IS 1786 Fe-500D,55800.0,Empirical Mandi / Stockyard Registry
+2026-07-23 10:00:00,2026-07-23,Maharashtra,STEEL,SAIL / RINL Vizag (PSU),Primary PSU,IS 1786 Fe-500D,55800.0,Empirical Mandi / Stockyard Registry
+2026-07-30 10:00:00,2026-07-30,Maharashtra,STEEL,SAIL / RINL Vizag (PSU),Primary PSU,IS 1786 Fe-500D,55900.0,Empirical Mandi / Stockyard Registry
+2026-08-06 10:00:00,2026-08-06,Maharashtra,STEEL,SAIL / RINL Vizag (PSU),Primary PSU,IS 1786 Fe-500D,55950.0,Empirical Mandi / Stockyard Registry
+2026-08-13 10:00:00,2026-08-13,Maharashtra,STEEL,SAIL / RINL Vizag (PSU),Primary PSU,IS 1786 Fe-500D,55950.0,Empirical Mandi / Stockyard Registry
+2026-08-20 10:00:00,2026-08-20,Maharashtra,STEEL,SAIL / RINL Vizag (PSU),Primary PSU,IS 1786 Fe-500D,55900.0,Empirical Mandi / Stockyard Registry
+2026-08-27 10:00:00,2026-08-27,Maharashtra,STEEL,SAIL / RINL Vizag (PSU),Primary PSU,IS 1786 Fe-500D,55950.0,Empirical Mandi / Stockyard Registry
+2026-09-03 10:00:00,2026-09-03,Maharashtra,STEEL,SAIL / RINL Vizag (PSU),Primary PSU,IS 1786 Fe-500D,56050.0,Empirical Mandi / Stockyard Registry
+2026-09-10 10:00:00,2026-09-10,Maharashtra,STEEL,SAIL / RINL Vizag (PSU),Primary PSU,IS 1786 Fe-500D,56100.0,Empirical Mandi / Stockyard Registry
+2026-09-17 10:00:00,2026-09-17,Maharashtra,STEEL,SAIL / RINL Vizag (PSU),Primary PSU,IS 1786 Fe-500D,56200.0,Empirical Mandi / Stockyard Registry
+2026-07-02 10:00:00,2026-07-02,Maharashtra,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,52400.0,Empirical Mandi / Stockyard Registry
+2026-07-09 10:00:00,2026-07-09,Maharashtra,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,52050.0,Empirical Mandi / Stockyard Registry
+2026-07-16 10:00:00,2026-07-16,Maharashtra,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,52470.0,Empirical Mandi / Stockyard Registry
+2026-07-23 10:00:00,2026-07-23,Maharashtra,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,52190.0,Empirical Mandi / Stockyard Registry
+2026-07-30 10:00:00,2026-07-30,Maharashtra,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,52790.0,Empirical Mandi / Stockyard Registry
+2026-08-06 10:00:00,2026-08-06,Maharashtra,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,52340.0,Empirical Mandi / Stockyard Registry
+2026-08-13 10:00:00,2026-08-13,Maharashtra,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,52640.0,Empirical Mandi / Stockyard Registry
+2026-08-20 10:00:00,2026-08-20,Maharashtra,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,52440.0,Empirical Mandi / Stockyard Registry
+2026-08-27 10:00:00,2026-08-27,Maharashtra,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,52890.0,Empirical Mandi / Stockyard Registry
+2026-09-03 10:00:00,2026-09-03,Maharashtra,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,52590.0,Empirical Mandi / Stockyard Registry
+2026-09-10 10:00:00,2026-09-10,Maharashtra,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,52840.0,Empirical Mandi / Stockyard Registry
+2026-09-17 10:00:00,2026-09-17,Maharashtra,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,53220.0,Empirical Mandi / Stockyard Registry
+2026-07-02 10:00:00,2026-07-02,Maharashtra,STEEL,Local Mandi Secondary Re-roller,Secondary Local Re-roller,IS 1786 Commercial,47200.0,Empirical Mandi / Stockyard Registry
+2026-07-09 10:00:00,2026-07-09,Maharashtra,STEEL,Local Mandi Secondary Re-roller,Secondary Local Re-roller,IS 1786 Commercial,46700.0,Empirical Mandi / Stockyard Registry
+2026-07-16 10:00:00,2026-07-16,Maharashtra,STEEL,Local Mandi Secondary Re-roller,Secondary Local Re-roller,IS 1786 Commercial,47350.0,Empirical Mandi / Stockyard Registry
+2026-07-23 10:00:00,2026-07-23,Maharashtra,STEEL,Local Mandi Secondary Re-roller,Secondary Local Re-roller,IS 1786 Commercial,46950.0,Empirical Mandi / Stockyard Registry
+2026-07-30 10:00:00,2026-07-30,Maharashtra,STEEL,Local Mandi Secondary Re-roller,Secondary Local Re-roller,IS 1786 Commercial,47750.0,Empirical Mandi / Stockyard Registry
+2026-08-06 10:00:00,2026-08-06,Maharashtra,STEEL,Local Mandi Secondary Re-roller,Secondary Local Re-roller,IS 1786 Commercial,47150.0,Empirical Mandi / Stockyard Registry
+2026-08-13 10:00:00,2026-08-13,Maharashtra,STEEL,Local Mandi Secondary Re-roller,Secondary Local Re-roller,IS 1786 Commercial,47600.0,Empirical Mandi / Stockyard Registry
+2026-08-20 10:00:00,2026-08-20,Maharashtra,STEEL,Local Mandi Secondary Re-roller,Secondary Local Re-roller,IS 1786 Commercial,47250.0,Empirical Mandi / Stockyard Registry
+2026-08-27 10:00:00,2026-08-27,Maharashtra,STEEL,Local Mandi Secondary Re-roller,Secondary Local Re-roller,IS 1786 Commercial,47850.0,Empirical Mandi / Stockyard Registry
+2026-09-03 10:00:00,2026-09-03,Maharashtra,STEEL,Local Mandi Secondary Re-roller,Secondary Local Re-roller,IS 1786 Commercial,47400.0,Empirical Mandi / Stockyard Registry
+2026-09-10 10:00:00,2026-09-10,Maharashtra,STEEL,Local Mandi Secondary Re-roller,Secondary Local Re-roller,IS 1786 Commercial,47780.0,Empirical Mandi / Stockyard Registry
+2026-09-17 10:00:00,2026-09-17,Maharashtra,STEEL,Local Mandi Secondary Re-roller,Secondary Local Re-roller,IS 1786 Commercial,48300.0,Empirical Mandi / Stockyard Registry
+2026-07-02 10:00:00,2026-07-02,Maharashtra,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,7400.0,Empirical Mandi / Stockyard Registry
+2026-07-09 10:00:00,2026-07-09,Maharashtra,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,7480.0,Empirical Mandi / Stockyard Registry
+2026-07-16 10:00:00,2026-07-16,Maharashtra,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,7520.0,Empirical Mandi / Stockyard Registry
+2026-07-23 10:00:00,2026-07-23,Maharashtra,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,7460.0,Empirical Mandi / Stockyard Registry
+2026-07-30 10:00:00,2026-07-30,Maharashtra,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,7560.0,Empirical Mandi / Stockyard Registry
+2026-08-06 10:00:00,2026-08-06,Maharashtra,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,7640.0,Empirical Mandi / Stockyard Registry
+2026-08-13 10:00:00,2026-08-13,Maharashtra,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,7600.0,Empirical Mandi / Stockyard Registry
+2026-08-20 10:00:00,2026-08-20,Maharashtra,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,7660.0,Empirical Mandi / Stockyard Registry
+2026-08-27 10:00:00,2026-08-27,Maharashtra,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,7780.0,Empirical Mandi / Stockyard Registry
+2026-09-03 10:00:00,2026-09-03,Maharashtra,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,7860.0,Empirical Mandi / Stockyard Registry
+2026-09-10 10:00:00,2026-09-10,Maharashtra,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,7840.0,Empirical Mandi / Stockyard Registry
+2026-09-17 10:00:00,2026-09-17,Maharashtra,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,7980.0,Empirical Mandi / Stockyard Registry
+2026-07-02 10:00:00,2026-07-02,Maharashtra,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,7100.0,Empirical Mandi / Stockyard Registry
+2026-07-09 10:00:00,2026-07-09,Maharashtra,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,7160.0,Empirical Mandi / Stockyard Registry
+2026-07-16 10:00:00,2026-07-16,Maharashtra,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,7180.0,Empirical Mandi / Stockyard Registry
+2026-07-23 10:00:00,2026-07-23,Maharashtra,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,7140.0,Empirical Mandi / Stockyard Registry
+2026-07-30 10:00:00,2026-07-30,Maharashtra,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,7220.0,Empirical Mandi / Stockyard Registry
+2026-08-06 10:00:00,2026-08-06,Maharashtra,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,7280.0,Empirical Mandi / Stockyard Registry
+2026-08-13 10:00:00,2026-08-13,Maharashtra,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,7250.0,Empirical Mandi / Stockyard Registry
+2026-08-20 10:00:00,2026-08-20,Maharashtra,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,7290.0,Empirical Mandi / Stockyard Registry
+2026-08-27 10:00:00,2026-08-27,Maharashtra,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,7390.0,Empirical Mandi / Stockyard Registry
+2026-09-03 10:00:00,2026-09-03,Maharashtra,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,7450.0,Empirical Mandi / Stockyard Registry
+2026-09-10 10:00:00,2026-09-10,Maharashtra,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,7440.0,Empirical Mandi / Stockyard Registry
+2026-09-17 10:00:00,2026-09-17,Maharashtra,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,7550.0,Empirical Mandi / Stockyard Registry
+2026-07-02 10:00:00,2026-07-02,Maharashtra,CEMENT,Shree Cement / Bangur (Tier-1 Commercial),Tier-1 Commercial,IS 1489 PPC,6650.0,Empirical Mandi / Stockyard Registry
+2026-07-09 10:00:00,2026-07-09,Maharashtra,CEMENT,Shree Cement / Bangur (Tier-1 Commercial),Tier-1 Commercial,IS 1489 PPC,6700.0,Empirical Mandi / Stockyard Registry
+2026-07-16 10:00:00,2026-07-16,Maharashtra,CEMENT,Shree Cement / Bangur (Tier-1 Commercial),Tier-1 Commercial,IS 1489 PPC,6680.0,Empirical Mandi / Stockyard Registry
+2026-07-23 10:00:00,2026-07-23,Maharashtra,CEMENT,Shree Cement / Bangur (Tier-1 Commercial),Tier-1 Commercial,IS 1489 PPC,6630.0,Empirical Mandi / Stockyard Registry
+2026-07-30 10:00:00,2026-07-30,Maharashtra,CEMENT,Shree Cement / Bangur (Tier-1 Commercial),Tier-1 Commercial,IS 1489 PPC,6690.0,Empirical Mandi / Stockyard Registry
+2026-08-06 10:00:00,2026-08-06,Maharashtra,CEMENT,Shree Cement / Bangur (Tier-1 Commercial),Tier-1 Commercial,IS 1489 PPC,6730.0,Empirical Mandi / Stockyard Registry
+2026-08-13 10:00:00,2026-08-13,Maharashtra,CEMENT,Shree Cement / Bangur (Tier-1 Commercial),Tier-1 Commercial,IS 1489 PPC,6670.0,Empirical Mandi / Stockyard Registry
+2026-08-20 10:00:00,2026-08-20,Maharashtra,CEMENT,Shree Cement / Bangur (Tier-1 Commercial),Tier-1 Commercial,IS 1489 PPC,6690.0,Empirical Mandi / Stockyard Registry
+2026-08-27 10:00:00,2026-08-27,Maharashtra,CEMENT,Shree Cement / Bangur (Tier-1 Commercial),Tier-1 Commercial,IS 1489 PPC,6770.0,Empirical Mandi / Stockyard Registry
+2026-09-03 10:00:00,2026-09-03,Maharashtra,CEMENT,Shree Cement / Bangur (Tier-1 Commercial),Tier-1 Commercial,IS 1489 PPC,6810.0,Empirical Mandi / Stockyard Registry
+2026-09-10 10:00:00,2026-09-10,Maharashtra,CEMENT,Shree Cement / Bangur (Tier-1 Commercial),Tier-1 Commercial,IS 1489 PPC,6770.0,Empirical Mandi / Stockyard Registry
+2026-09-17 10:00:00,2026-09-17,Maharashtra,CEMENT,Shree Cement / Bangur (Tier-1 Commercial),Tier-1 Commercial,IS 1489 PPC,6860.0,Empirical Mandi / Stockyard Registry
+2026-07-02 10:00:00,2026-07-02,Maharashtra,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1400.0,Empirical Mandi / Stockyard Registry
+2026-07-09 10:00:00,2026-07-09,Maharashtra,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1410.0,Empirical Mandi / Stockyard Registry
+2026-07-16 10:00:00,2026-07-16,Maharashtra,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1405.0,Empirical Mandi / Stockyard Registry
+2026-07-23 10:00:00,2026-07-23,Maharashtra,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1420.0,Empirical Mandi / Stockyard Registry
+2026-07-30 10:00:00,2026-07-30,Maharashtra,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1420.0,Empirical Mandi / Stockyard Registry
+2026-08-06 10:00:00,2026-08-06,Maharashtra,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1440.0,Empirical Mandi / Stockyard Registry
+2026-08-13 10:00:00,2026-08-13,Maharashtra,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1450.0,Empirical Mandi / Stockyard Registry
+2026-08-20 10:00:00,2026-08-20,Maharashtra,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1440.0,Empirical Mandi / Stockyard Registry
+2026-08-27 10:00:00,2026-08-27,Maharashtra,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1465.0,Empirical Mandi / Stockyard Registry
+2026-09-03 10:00:00,2026-09-03,Maharashtra,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1480.0,Empirical Mandi / Stockyard Registry
+2026-09-10 10:00:00,2026-09-10,Maharashtra,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1490.0,Empirical Mandi / Stockyard Registry
+2026-09-17 10:00:00,2026-09-17,Maharashtra,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1520.0,Empirical Mandi / Stockyard Registry
+2026-07-02 10:00:00,2026-07-02,Maharashtra,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1580.0,Empirical Mandi / Stockyard Registry
+2026-07-09 10:00:00,2026-07-09,Maharashtra,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1595.0,Empirical Mandi / Stockyard Registry
+2026-07-16 10:00:00,2026-07-16,Maharashtra,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1605.0,Empirical Mandi / Stockyard Registry
+2026-07-23 10:00:00,2026-07-23,Maharashtra,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1625.0,Empirical Mandi / Stockyard Registry
+2026-07-30 10:00:00,2026-07-30,Maharashtra,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1640.0,Empirical Mandi / Stockyard Registry
+2026-08-06 10:00:00,2026-08-06,Maharashtra,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1665.0,Empirical Mandi / Stockyard Registry
+2026-08-13 10:00:00,2026-08-13,Maharashtra,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1685.0,Empirical Mandi / Stockyard Registry
+2026-08-20 10:00:00,2026-08-20,Maharashtra,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1695.0,Empirical Mandi / Stockyard Registry
+2026-08-27 10:00:00,2026-08-27,Maharashtra,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1730.0,Empirical Mandi / Stockyard Registry
+2026-09-03 10:00:00,2026-09-03,Maharashtra,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1750.0,Empirical Mandi / Stockyard Registry
+2026-09-10 10:00:00,2026-09-10,Maharashtra,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1765.0,Empirical Mandi / Stockyard Registry
+2026-09-17 10:00:00,2026-09-17,Maharashtra,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1805.0,Empirical Mandi / Stockyard Registry
+2026-07-02 10:00:00,2026-07-02,Kerala,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,8100.0,Empirical Mandi / Stockyard Registry
+2026-07-09 10:00:00,2026-07-09,Kerala,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,8220.0,Empirical Mandi / Stockyard Registry
+2026-07-16 10:00:00,2026-07-16,Kerala,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,8300.0,Empirical Mandi / Stockyard Registry
+2026-07-23 10:00:00,2026-07-23,Kerala,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,8260.0,Empirical Mandi / Stockyard Registry
+2026-07-30 10:00:00,2026-07-30,Kerala,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,8410.0,Empirical Mandi / Stockyard Registry
+2026-08-06 10:00:00,2026-08-06,Kerala,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,8510.0,Empirical Mandi / Stockyard Registry
+2026-08-13 10:00:00,2026-08-13,Kerala,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,8570.0,Empirical Mandi / Stockyard Registry
+2026-08-20 10:00:00,2026-08-20,Kerala,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,8690.0,Empirical Mandi / Stockyard Registry
+2026-08-27 10:00:00,2026-08-27,Kerala,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,8870.0,Empirical Mandi / Stockyard Registry
+2026-09-03 10:00:00,2026-09-03,Kerala,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,9010.0,Empirical Mandi / Stockyard Registry
+2026-09-10 10:00:00,2026-09-10,Kerala,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,9070.0,Empirical Mandi / Stockyard Registry
+2026-09-17 10:00:00,2026-09-17,Kerala,CEMENT,UltraTech Cement (Tier-1 Premium),Tier-1 Premium,IS 1489 PPC,9270.0,Empirical Mandi / Stockyard Registry
+2026-07-02 10:00:00,2026-07-02,Kerala,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,7750.0,Empirical Mandi / Stockyard Registry
+2026-07-09 10:00:00,2026-07-09,Kerala,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,7850.0,Empirical Mandi / Stockyard Registry
+2026-07-16 10:00:00,2026-07-16,Kerala,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,7910.0,Empirical Mandi / Stockyard Registry
+2026-07-23 10:00:00,2026-07-23,Kerala,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,7880.0,Empirical Mandi / Stockyard Registry
+2026-07-30 10:00:00,2026-07-30,Kerala,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,8000.0,Empirical Mandi / Stockyard Registry
+2026-08-06 10:00:00,2026-08-06,Kerala,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,8080.0,Empirical Mandi / Stockyard Registry
+2026-08-13 10:00:00,2026-08-13,Kerala,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,8120.0,Empirical Mandi / Stockyard Registry
+2026-08-20 10:00:00,2026-08-20,Kerala,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,8220.0,Empirical Mandi / Stockyard Registry
+2026-08-27 10:00:00,2026-08-27,Kerala,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,8370.0,Empirical Mandi / Stockyard Registry
+2026-09-03 10:00:00,2026-09-03,Kerala,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,8480.0,Empirical Mandi / Stockyard Registry
+2026-09-10 10:00:00,2026-09-10,Kerala,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,8520.0,Empirical Mandi / Stockyard Registry
+2026-09-17 10:00:00,2026-09-17,Kerala,CEMENT,Ambuja / ACC (Tier-1 Standard),Tier-1 Standard,IS 1489 PPC,8680.0,Empirical Mandi / Stockyard Registry
+2026-07-02 10:00:00,2026-07-02,Kerala,CEMENT,Dalmia / Ramco (Peninsular/Eastern Tier-1),Tier-1 Regional,IS 1489 PSC,7450.0,Empirical Mandi / Stockyard Registry
+2026-07-09 10:00:00,2026-07-09,Kerala,CEMENT,Dalmia / Ramco (Peninsular/Eastern Tier-1),Tier-1 Regional,IS 1489 PSC,7530.0,Empirical Mandi / Stockyard Registry
+2026-07-16 10:00:00,2026-07-16,Kerala,CEMENT,Dalmia / Ramco (Peninsular/Eastern Tier-1),Tier-1 Regional,IS 1489 PSC,7570.0,Empirical Mandi / Stockyard Registry
+2026-07-23 10:00:00,2026-07-23,Kerala,CEMENT,Dalmia / Ramco (Peninsular/Eastern Tier-1),Tier-1 Regional,IS 1489 PSC,7550.0,Empirical Mandi / Stockyard Registry
+2026-07-30 10:00:00,2026-07-30,Kerala,CEMENT,Dalmia / Ramco (Peninsular/Eastern Tier-1),Tier-1 Regional,IS 1489 PSC,7640.0,Empirical Mandi / Stockyard Registry
+2026-08-06 10:00:00,2026-08-06,Kerala,CEMENT,Dalmia / Ramco (Peninsular/Eastern Tier-1),Tier-1 Regional,IS 1489 PSC,7700.0,Empirical Mandi / Stockyard Registry
+2026-08-13 10:00:00,2026-08-13,Kerala,CEMENT,Dalmia / Ramco (Peninsular/Eastern Tier-1),Tier-1 Regional,IS 1489 PSC,7730.0,Empirical Mandi / Stockyard Registry
+2026-08-20 10:00:00,2026-08-20,Kerala,CEMENT,Dalmia / Ramco (Peninsular/Eastern Tier-1),Tier-1 Regional,IS 1489 PSC,7810.0,Empirical Mandi / Stockyard Registry
+2026-08-27 10:00:00,2026-08-27,Kerala,CEMENT,Dalmia / Ramco (Peninsular/Eastern Tier-1),Tier-1 Regional,IS 1489 PSC,7920.0,Empirical Mandi / Stockyard Registry
+2026-09-03 10:00:00,2026-09-03,Kerala,CEMENT,Dalmia / Ramco (Peninsular/Eastern Tier-1),Tier-1 Regional,IS 1489 PSC,8010.0,Empirical Mandi / Stockyard Registry
+2026-09-10 10:00:00,2026-09-10,Kerala,CEMENT,Dalmia / Ramco (Peninsular/Eastern Tier-1),Tier-1 Regional,IS 1489 PSC,8040.0,Empirical Mandi / Stockyard Registry
+2026-09-17 10:00:00,2026-09-17,Kerala,CEMENT,Dalmia / Ramco (Peninsular/Eastern Tier-1),Tier-1 Regional,IS 1489 PSC,8170.0,Empirical Mandi / Stockyard Registry
+2026-07-02 10:00:00,2026-07-02,Kerala,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,58900.0,Empirical Mandi / Stockyard Registry
+2026-07-09 10:00:00,2026-07-09,Kerala,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,59080.0,Empirical Mandi / Stockyard Registry
+2026-07-16 10:00:00,2026-07-16,Kerala,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,58960.0,Empirical Mandi / Stockyard Registry
+2026-07-23 10:00:00,2026-07-23,Kerala,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,59040.0,Empirical Mandi / Stockyard Registry
+2026-07-30 10:00:00,2026-07-30,Kerala,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,59340.0,Empirical Mandi / Stockyard Registry
+2026-08-06 10:00:00,2026-08-06,Kerala,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,59520.0,Empirical Mandi / Stockyard Registry
+2026-08-13 10:00:00,2026-08-13,Kerala,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,59430.0,Empirical Mandi / Stockyard Registry
+2026-08-20 10:00:00,2026-08-20,Kerala,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,59490.0,Empirical Mandi / Stockyard Registry
+2026-08-27 10:00:00,2026-08-27,Kerala,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,59620.0,Empirical Mandi / Stockyard Registry
+2026-09-03 10:00:00,2026-09-03,Kerala,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,59880.0,Empirical Mandi / Stockyard Registry
+2026-09-10 10:00:00,2026-09-10,Kerala,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,59970.0,Empirical Mandi / Stockyard Registry
+2026-09-17 10:00:00,2026-09-17,Kerala,STEEL,Tata Tiscon (Primary),Primary Integrated,IS 1786 Fe-500D,60190.0,Empirical Mandi / Stockyard Registry
+2026-07-02 10:00:00,2026-07-02,Kerala,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,53500.0,Empirical Mandi / Stockyard Registry
+2026-07-09 10:00:00,2026-07-09,Kerala,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,53200.0,Empirical Mandi / Stockyard Registry
+2026-07-16 10:00:00,2026-07-16,Kerala,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,53580.0,Empirical Mandi / Stockyard Registry
+2026-07-23 10:00:00,2026-07-23,Kerala,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,53330.0,Empirical Mandi / Stockyard Registry
+2026-07-30 10:00:00,2026-07-30,Kerala,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,53850.0,Empirical Mandi / Stockyard Registry
+2026-08-06 10:00:00,2026-08-06,Kerala,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,53470.0,Empirical Mandi / Stockyard Registry
+2026-08-13 10:00:00,2026-08-13,Kerala,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,53720.0,Empirical Mandi / Stockyard Registry
+2026-08-20 10:00:00,2026-08-20,Kerala,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,53540.0,Empirical Mandi / Stockyard Registry
+2026-08-27 10:00:00,2026-08-27,Kerala,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,53930.0,Empirical Mandi / Stockyard Registry
+2026-09-03 10:00:00,2026-09-03,Kerala,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,53670.0,Empirical Mandi / Stockyard Registry
+2026-09-10 10:00:00,2026-09-10,Kerala,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,53880.0,Empirical Mandi / Stockyard Registry
+2026-09-17 10:00:00,2026-09-17,Kerala,STEEL,Kamdhenu Nxt (Tier-2),Secondary National,IS 1786 Fe-500,54220.0,Empirical Mandi / Stockyard Registry
+2026-07-02 10:00:00,2026-07-02,Kerala,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1450.0,Empirical Mandi / Stockyard Registry
+2026-07-09 10:00:00,2026-07-09,Kerala,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1470.0,Empirical Mandi / Stockyard Registry
+2026-07-16 10:00:00,2026-07-16,Kerala,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1480.0,Empirical Mandi / Stockyard Registry
+2026-07-23 10:00:00,2026-07-23,Kerala,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1510.0,Empirical Mandi / Stockyard Registry
+2026-07-30 10:00:00,2026-07-30,Kerala,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1530.0,Empirical Mandi / Stockyard Registry
+2026-08-06 10:00:00,2026-08-06,Kerala,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1565.0,Empirical Mandi / Stockyard Registry
+2026-08-13 10:00:00,2026-08-13,Kerala,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1590.0,Empirical Mandi / Stockyard Registry
+2026-08-20 10:00:00,2026-08-20,Kerala,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1605.0,Empirical Mandi / Stockyard Registry
+2026-08-27 10:00:00,2026-08-27,Kerala,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1650.0,Empirical Mandi / Stockyard Registry
+2026-09-03 10:00:00,2026-09-03,Kerala,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1680.0,Empirical Mandi / Stockyard Registry
+2026-09-10 10:00:00,2026-09-10,Kerala,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1700.0,Empirical Mandi / Stockyard Registry
+2026-09-17 10:00:00,2026-09-17,Kerala,AGGREGATES,Machine Crushed Blue Metal (20mm Grade-A),Standard Spec,IS 383:2016,1750.0,Empirical Mandi / Stockyard Registry
+2026-07-02 10:00:00,2026-07-02,Kerala,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1680.0,Empirical Mandi / Stockyard Registry
+2026-07-09 10:00:00,2026-07-09,Kerala,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1705.0,Empirical Mandi / Stockyard Registry
+2026-07-16 10:00:00,2026-07-16,Kerala,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1720.0,Empirical Mandi / Stockyard Registry
+2026-07-23 10:00:00,2026-07-23,Kerala,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1755.0,Empirical Mandi / Stockyard Registry
+2026-07-30 10:00:00,2026-07-30,Kerala,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1785.0,Empirical Mandi / Stockyard Registry
+2026-08-06 10:00:00,2026-08-06,Kerala,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1830.0,Empirical Mandi / Stockyard Registry
+2026-08-13 10:00:00,2026-08-13,Kerala,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1865.0,Empirical Mandi / Stockyard Registry
+2026-08-20 10:00:00,2026-08-20,Kerala,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1885.0,Empirical Mandi / Stockyard Registry
+2026-08-27 10:00:00,2026-08-27,Kerala,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1940.0,Empirical Mandi / Stockyard Registry
+2026-09-03 10:00:00,2026-09-03,Kerala,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,1980.0,Empirical Mandi / Stockyard Registry
+2026-09-10 10:00:00,2026-09-10,Kerala,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,2005.0,Empirical Mandi / Stockyard Registry
+2026-09-17 10:00:00,2026-09-17,Kerala,AGGREGATES,VSI Crushed Micro-Aggregate / Plaster Sand,Premium Spec,IS 383:2016,2065.0,Empirical Mandi / Stockyard Registry

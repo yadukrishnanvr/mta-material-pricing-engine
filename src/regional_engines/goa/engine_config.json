@@ -1,0 +1,18 @@
+{
+  "state_name": "Goa",
+  "zone": "Zone 9 (Western Coastal Enclave)",
+  "statutory_sources": [
+    "Goa PWD Schedule of Rates (GSR 2023/2024)",
+    "Directorate of Mines & Geology Goa Mineral Concession Orders",
+    "Goa Labour Welfare Board Minimum Wage Circulars"
+  ],
+  "ibm_anchor_weight": {
+    "iron_ore_share": 0.021,
+    "limestone_share": 0.0
+  },
+  "lead_clusters": [
+    "Mormugao Port Stockyard Hub",
+    "Sanguem-Bicholim Basalt Quarries",
+    "Mandovi River Sand Barging Reaches"
+  ]
+}

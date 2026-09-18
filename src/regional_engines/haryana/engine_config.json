@@ -1,0 +1,18 @@
+{
+  "state_name": "Haryana",
+  "zone": "Zone 7 (Northern Industrial Rim)",
+  "statutory_sources": [
+    "Haryana PWD (B&R) Haryana Schedule of Rates (HSR)",
+    "Department of Mines & Geology Haryana Stone/Sand E-Auction Gazettes",
+    "Haryana Labour Department Minimum Wage Notifications"
+  ],
+  "ibm_anchor_weight": {
+    "limestone_share": 0.0,
+    "iron_ore_share": 0.0
+  },
+  "lead_clusters": [
+    "Nuh/Aravalli Perimeter Buffer Zones",
+    "Faridabad/Gurugram Inflow Sinks",
+    "Hisar-Panipat Re-rolling Mills"
+  ]
+}

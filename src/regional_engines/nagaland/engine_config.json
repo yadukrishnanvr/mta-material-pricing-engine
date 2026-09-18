@@ -1,0 +1,13 @@
+{
+  "state_name": "Nagaland",
+  "zone": "North-Eastern Transit Frontier",
+  "statutory_sources": [
+    "Nagaland NPWD Schedule of Rates (NPWD SOR)"
+  ],
+  "lead_clusters": [
+    "Dimapur Railhead Mandi",
+    "Dhansiri River Sand Reach",
+    "Kohima Hill Spoke"
+  ],
+  "default_terrain": "mountainous"
+}

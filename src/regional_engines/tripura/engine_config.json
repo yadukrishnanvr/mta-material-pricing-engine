@@ -1,0 +1,19 @@
+{
+  "state_name": "Tripura",
+  "zone": "Zone 10 (North-Eastern Transit Deficit Sink)",
+  "statutory_sources": [
+    "Tripura PWD Schedule of Rates (TPWD SOR)",
+    "Tripura Department of Industries and Mines Mineral Rules",
+    "Tripura Labour Department Minimum Wage Notifications"
+  ],
+  "ibm_anchor_weight": {
+    "limestone_share": 0.0,
+    "iron_ore_share": 0.0
+  },
+  "lead_clusters": [
+    "Agartala Railhead Terminal",
+    "Gomati River Sand Basins",
+    "Bodhjungnagar Industrial Growth Centre"
+  ],
+  "default_terrain": "plain"
+}

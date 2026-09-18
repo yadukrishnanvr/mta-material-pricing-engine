@@ -1,0 +1,1346 @@
+{
+  "Maharashtra": {
+    "steel": {
+      "Local Mandi Secondary Re-roller": {
+        "spot_base_inr": 46014.44,
+        "tier": "Secondary Local Re-roller",
+        "standard": "IS 1786 Commercial",
+        "source": "Jalna / Mumbai Mandi Board [Converged]",
+        "timestamp": "2026-09-18T10:37:51.750152"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 49197.53,
+        "tier": "Secondary National",
+        "standard": "IS 1786:2008 Fe-500",
+        "source": "EaseInfra Mandi Gobindgarh [Converged]",
+        "timestamp": "2026-09-18T10:37:51.742485"
+      },
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 57397.53,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "EaseInfra Mumbai / Tata Nexarc [Converged]",
+        "timestamp": "2026-09-18T10:37:51.723247"
+      },
+      "JSW Neosteel (Primary)": {
+        "spot_base_inr": 56786.07,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D",
+        "source": "Institutional Steel Desk [Converged]",
+        "timestamp": "2026-09-18T10:37:51.734845"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 7702.41,
+        "tier": "Tier-1",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Mumbai C&F Dispatch [Converged]",
+        "timestamp": "2026-09-18T10:37:51.790169"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 7298.11,
+        "tier": "Tier-1",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Maharashtra Distributor Circular [Converged]",
+        "timestamp": "2026-09-18T10:37:51.799086"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 2138.27,
+        "tier": "Delivered Retail Spot",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "InfraLens Pune Municipal Board [Converged]",
+        "timestamp": "2026-09-18T10:37:51.835324"
+      },
+      "VSI Crushed Micro-Aggregate / Plaster Sand": {
+        "spot_base_inr": 3250.72,
+        "tier": "Delivered Retail Spot",
+        "standard": "IS 383 Zone-II M-Sand",
+        "source": "InfraLens Pune Municipal Board [Converged]",
+        "timestamp": "2026-09-18T10:37:51.843146"
+      }
+    }
+  },
+  "Kerala": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 59197.53,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "Tata Nexarc Kochi [Converged]",
+        "timestamp": "2026-09-18T10:37:51.771943"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 50797.53,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "Kerala Steel Mandi [Converged]",
+        "timestamp": "2026-09-18T10:37:51.779162"
+      },
+      "Local Mandi Secondary Re-roller": {
+        "spot_base_inr": 49100.0,
+        "tier": "Secondary Local Re-roller",
+        "standard": "IS 1786 Commercial",
+        "source": "Kerala Mandi Regional Desk (Mandi Re-roller)",
+        "timestamp": "2026-09-18T09:39:53.705884"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 8302.41,
+        "tier": "Tier-1",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Ernakulam Wholesale Price Bulletin [Converged]",
+        "timestamp": "2026-09-18T10:37:51.806008"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 7898.11,
+        "tier": "Tier-1",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Kochi Trade Circular [Converged]",
+        "timestamp": "2026-09-18T10:37:51.817415"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1650.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.553766"
+      }
+    }
+  },
+  "Delhi NCR": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 57000.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "EaseInfra Delhi/Ghaziabad (Primary)",
+        "timestamp": "2026-09-18T09:39:53.547599"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 48500.0,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "EaseInfra Delhi/Ghaziabad (Tier-2)",
+        "timestamp": "2026-09-18T09:39:53.556083"
+      },
+      "Local Mandi Secondary Re-roller": {
+        "spot_base_inr": 45500.0,
+        "tier": "Secondary Local Re-roller",
+        "standard": "IS 1786 Commercial",
+        "source": "EaseInfra Delhi/Ghaziabad (Mandi Re-roller)",
+        "timestamp": "2026-09-18T09:39:53.562949"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 7602.41,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "NCR Warehouse Despatch [Converged]",
+        "timestamp": "2026-09-18T10:37:51.826723"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 7100.0,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "NCR Warehouse Despatch",
+        "timestamp": "2026-09-18T09:39:53.785811"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1650.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.387548"
+      }
+    }
+  },
+  "Rajasthan": {
+    "cement": {
+      "Shree Cement / Bangur (Tier-1 Commercial)": {
+        "spot_base_inr": 6200.0,
+        "tier": "Tier-1",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Beawar Railhead Ex-Works",
+        "timestamp": "2026-09-17T17:18:13.239089"
+      },
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 6700.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Jaipur Railhead Mandi",
+        "timestamp": "2026-09-18T09:39:53.792853"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 6300.0,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Jaipur Railhead Mandi",
+        "timestamp": "2026-09-18T09:39:53.799488"
+      }
+    },
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 56800.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "EaseInfra Jaipur Bourse (Primary)",
+        "timestamp": "2026-09-18T09:39:53.589370"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 48900.0,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "EaseInfra Jaipur Bourse (Tier-2)",
+        "timestamp": "2026-09-18T09:39:53.596639"
+      },
+      "Local Mandi Secondary Re-roller": {
+        "spot_base_inr": 45900.0,
+        "tier": "Secondary Local Re-roller",
+        "standard": "IS 1786 Commercial",
+        "source": "EaseInfra Jaipur Bourse (Mandi Re-roller)",
+        "timestamp": "2026-09-18T09:39:53.604780"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 950.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.394918"
+      }
+    }
+  },
+  "Tamil Nadu": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 58400.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "Tata Nexarc Chennai/Coimbatore (Primary)",
+        "timestamp": "2026-09-18T09:39:53.650412"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 51200.0,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "Tata Nexarc Chennai/Coimbatore (Tier-2)",
+        "timestamp": "2026-09-18T09:39:53.659447"
+      },
+      "Local Mandi Secondary Re-roller": {
+        "spot_base_inr": 48200.0,
+        "tier": "Secondary Local Re-roller",
+        "standard": "IS 1786 Commercial",
+        "source": "Tata Nexarc Chennai/Coimbatore (Mandi Re-roller)",
+        "timestamp": "2026-09-18T09:39:53.665966"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 8200.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Tamil Nadu Cement Dealers Board",
+        "timestamp": "2026-09-18T09:39:53.727983"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 7700.0,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Tamil Nadu Cement Dealers Board",
+        "timestamp": "2026-09-18T09:39:53.735032"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1782.5,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 Coarse",
+        "source": "Tamil Nadu Mines Directorate Registry",
+        "timestamp": "2026-09-18T10:13:46.188351"
+      }
+    }
+  },
+  "Karnataka": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 57900.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "Tata Nexarc Bengaluru Hub (Primary)",
+        "timestamp": "2026-09-18T09:39:53.672858"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 50800.0,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "Tata Nexarc Bengaluru Hub (Tier-2)",
+        "timestamp": "2026-09-18T09:39:53.679555"
+      },
+      "Local Mandi Secondary Re-roller": {
+        "spot_base_inr": 47800.0,
+        "tier": "Secondary Local Re-roller",
+        "standard": "IS 1786 Commercial",
+        "source": "Tata Nexarc Bengaluru Hub (Mandi Re-roller)",
+        "timestamp": "2026-09-18T09:39:53.685542"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 7800.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Bengaluru Wholesale C&F",
+        "timestamp": "2026-09-18T09:39:53.742619"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 7400.0,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Bengaluru Wholesale C&F",
+        "timestamp": "2026-09-18T09:39:53.748828"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1472.5,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 Coarse",
+        "source": "Karnataka DMG Mineral Dispatch",
+        "timestamp": "2026-09-18T10:13:46.195046"
+      }
+    }
+  },
+  "Odisha": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 61717.5,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "National Mandi & Mill Spot Index",
+        "timestamp": "2026-09-17T17:22:43.093029"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 52162.5,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "National Mandi Bourse Index",
+        "timestamp": "2026-09-17T17:22:43.097556"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 6600.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "State Dealer Trade Bulletin",
+        "timestamp": "2026-09-17T17:22:43.404288"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 6100.0,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Regional Mandi Circular",
+        "timestamp": "2026-09-17T17:22:43.410271"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1100.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.453762"
+      }
+    }
+  },
+  "Chhattisgarh": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 55200.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "EaseInfra Raipur Hub (Primary)",
+        "timestamp": "2026-09-18T09:39:53.611371"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 46000.0,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "EaseInfra Raipur Hub (Tier-2)",
+        "timestamp": "2026-09-18T09:39:53.617988"
+      },
+      "Local Mandi Secondary Re-roller": {
+        "spot_base_inr": 43000.0,
+        "tier": "Secondary Local Re-roller",
+        "standard": "IS 1786 Commercial",
+        "source": "EaseInfra Raipur Hub (Mandi Re-roller)",
+        "timestamp": "2026-09-18T09:39:53.624459"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 6300.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "State Dealer Trade Bulletin",
+        "timestamp": "2026-09-17T17:22:43.415840"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 5800.0,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Regional Mandi Circular",
+        "timestamp": "2026-09-17T17:22:43.421268"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 980.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.468423"
+      }
+    }
+  },
+  "Andhra Pradesh": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 59276.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "Corridor Ingest ex-Tamil Nadu",
+        "timestamp": "2026-09-18T09:39:53.857079"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 51968.0,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "Corridor Ingest ex-Tamil Nadu",
+        "timestamp": "2026-09-18T09:39:53.841418"
+      },
+      "Local Mandi Secondary Re-roller": {
+        "spot_base_inr": 48923.0,
+        "tier": "Secondary Local Re-roller",
+        "standard": "IS 1786 Commercial",
+        "source": "Corridor Ingest ex-Tamil Nadu",
+        "timestamp": "2026-09-18T09:39:53.849425"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 8323.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Corridor Ingest ex-Tamil Nadu",
+        "timestamp": "2026-09-18T09:39:53.831613"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 7815.5,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Corridor Ingest ex-Tamil Nadu",
+        "timestamp": "2026-09-18T09:39:53.823079"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 723.12,
+        "tier": "Quarry Pit-Mouth",
+        "standard": "IS 383:2016 Coarse",
+        "source": "AP Sand Management (sand.ap.gov.in) [Converged]",
+        "timestamp": "2026-09-18T10:37:51.851047"
+      }
+    }
+  },
+  "Telangana": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 58768.5,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "Corridor Ingest ex-Karnataka",
+        "timestamp": "2026-09-18T09:39:53.893355"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 51562.0,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "Corridor Ingest ex-Karnataka",
+        "timestamp": "2026-09-18T09:39:53.880372"
+      },
+      "Local Mandi Secondary Re-roller": {
+        "spot_base_inr": 48517.0,
+        "tier": "Secondary Local Re-roller",
+        "standard": "IS 1786 Commercial",
+        "source": "Corridor Ingest ex-Karnataka",
+        "timestamp": "2026-09-18T09:39:53.886723"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 7917.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Corridor Ingest ex-Karnataka",
+        "timestamp": "2026-09-18T09:39:53.873968"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 7511.0,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Corridor Ingest ex-Karnataka",
+        "timestamp": "2026-09-18T09:39:53.867133"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1350.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.460900"
+      }
+    }
+  },
+  "Uttar Pradesh": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 57855.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "Corridor Ingest ex-Delhi NCR",
+        "timestamp": "2026-09-18T09:39:53.965374"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 49227.5,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "Corridor Ingest ex-Delhi NCR",
+        "timestamp": "2026-09-18T09:39:53.951644"
+      },
+      "Local Mandi Secondary Re-roller": {
+        "spot_base_inr": 46182.5,
+        "tier": "Secondary Local Re-roller",
+        "standard": "IS 1786 Commercial",
+        "source": "Corridor Ingest ex-Delhi NCR",
+        "timestamp": "2026-09-18T09:39:53.959131"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 7511.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Corridor Ingest ex-Delhi NCR",
+        "timestamp": "2026-09-18T09:39:53.944687"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 7206.5,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Corridor Ingest ex-Delhi NCR",
+        "timestamp": "2026-09-18T09:39:53.935351"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1350.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.422929"
+      }
+    }
+  },
+  "Madhya Pradesh": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 58261.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "Corridor Ingest ex-Maharashtra",
+        "timestamp": "2026-09-18T09:39:53.927967"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 49735.0,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "Corridor Ingest ex-Maharashtra",
+        "timestamp": "2026-09-18T09:39:53.914829"
+      },
+      "Local Mandi Secondary Re-roller": {
+        "spot_base_inr": 46690.0,
+        "tier": "Secondary Local Re-roller",
+        "standard": "IS 1786 Commercial",
+        "source": "Corridor Ingest ex-Maharashtra",
+        "timestamp": "2026-09-18T09:39:53.921620"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 7815.5,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Corridor Ingest ex-Maharashtra",
+        "timestamp": "2026-09-18T09:39:53.907289"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 7409.5,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Corridor Ingest ex-Maharashtra",
+        "timestamp": "2026-09-18T09:39:53.900454"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1050.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.429859"
+      }
+    }
+  },
+  "Gujarat": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 56900.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "EaseInfra Ahmedabad Hub (Primary)",
+        "timestamp": "2026-09-18T09:39:53.630650"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 48800.0,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "EaseInfra Ahmedabad Hub (Tier-2)",
+        "timestamp": "2026-09-18T09:39:53.637346"
+      },
+      "Local Mandi Secondary Re-roller": {
+        "spot_base_inr": 45800.0,
+        "tier": "Secondary Local Re-roller",
+        "standard": "IS 1786 Commercial",
+        "source": "EaseInfra Ahmedabad Hub (Mandi Re-roller)",
+        "timestamp": "2026-09-18T09:39:53.643385"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 7100.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Ahmedabad Dealer Index",
+        "timestamp": "2026-09-18T09:39:53.806831"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 6800.0,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Ahmedabad Dealer Index",
+        "timestamp": "2026-09-18T09:39:53.813438"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1250.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.402668"
+      }
+    }
+  },
+  "Bihar": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 64891.99,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "Corridor Ingest ex-West Bengal",
+        "timestamp": "2026-09-18T09:39:54.025078"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 54845.52,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "Corridor Ingest ex-West Bengal",
+        "timestamp": "2026-09-18T09:39:54.018040"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 7206.5,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Corridor Ingest ex-West Bengal",
+        "timestamp": "2026-09-18T09:39:54.011762"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 6699.0,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Corridor Ingest ex-West Bengal",
+        "timestamp": "2026-09-18T09:39:54.005646"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1720.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.446890"
+      }
+    }
+  },
+  "West Bengal": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 63933.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "National Mandi & Mill Spot Index",
+        "timestamp": "2026-09-17T17:22:43.195158"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 54035.0,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "National Mandi Bourse Index",
+        "timestamp": "2026-09-17T17:22:43.199692"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 7100.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "State Dealer Trade Bulletin",
+        "timestamp": "2026-09-17T17:22:43.526149"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 6600.0,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Regional Mandi Circular",
+        "timestamp": "2026-09-17T17:22:43.532753"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1680.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.440078"
+      }
+    }
+  },
+  "Haryana": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 59073.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "Corridor Ingest ex-Punjab",
+        "timestamp": "2026-09-18T09:39:53.998688"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 50902.25,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "Corridor Ingest ex-Punjab",
+        "timestamp": "2026-09-18T09:39:53.985277"
+      },
+      "Local Mandi Secondary Re-roller": {
+        "spot_base_inr": 47857.25,
+        "tier": "Secondary Local Re-roller",
+        "standard": "IS 1786 Commercial",
+        "source": "Corridor Ingest ex-Punjab",
+        "timestamp": "2026-09-18T09:39:53.991949"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 6699.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Corridor Ingest ex-Punjab",
+        "timestamp": "2026-09-18T09:39:53.978691"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 6191.5,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Corridor Ingest ex-Punjab",
+        "timestamp": "2026-09-18T09:39:53.972090"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1450.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.416254"
+      }
+    }
+  },
+  "Punjab": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 58197.53,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "Mandi Gobindgarh Stockyard [Converged]",
+        "timestamp": "2026-09-18T10:37:51.757246"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 47147.53,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "Mandi Gobindgarh Live [Converged]",
+        "timestamp": "2026-09-18T10:37:51.764407"
+      },
+      "Local Mandi Secondary Re-roller": {
+        "spot_base_inr": 47150.0,
+        "tier": "Secondary Local Re-roller",
+        "standard": "IS 1786 Commercial",
+        "source": "EaseInfra Mandi Gobindgarh (Mandi Re-roller)",
+        "timestamp": "2026-09-18T09:39:53.582034"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 6600.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "State Dealer Trade Bulletin",
+        "timestamp": "2026-09-17T17:22:43.553314"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 6100.0,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Regional Mandi Circular",
+        "timestamp": "2026-09-17T17:22:43.558933"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1550.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.409537"
+      }
+    }
+  },
+  "Himachal Pradesh": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 59073.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "Corridor Ingest ex-Punjab",
+        "timestamp": "2026-09-18T09:39:54.059134"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 50902.25,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "Corridor Ingest ex-Punjab",
+        "timestamp": "2026-09-18T09:39:54.045533"
+      },
+      "Local Mandi Secondary Re-roller": {
+        "spot_base_inr": 47857.25,
+        "tier": "Secondary Local Re-roller",
+        "standard": "IS 1786 Commercial",
+        "source": "Corridor Ingest ex-Punjab",
+        "timestamp": "2026-09-18T09:39:54.051564"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 6699.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Corridor Ingest ex-Punjab",
+        "timestamp": "2026-09-18T09:39:54.038575"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 6191.5,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Corridor Ingest ex-Punjab",
+        "timestamp": "2026-09-18T09:39:54.032246"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1400.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.489243"
+      }
+    }
+  },
+  "Uttarakhand": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 57855.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "Corridor Ingest ex-Delhi NCR",
+        "timestamp": "2026-09-18T09:39:54.093804"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 49227.5,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "Corridor Ingest ex-Delhi NCR",
+        "timestamp": "2026-09-18T09:39:54.079932"
+      },
+      "Local Mandi Secondary Re-roller": {
+        "spot_base_inr": 46182.5,
+        "tier": "Secondary Local Re-roller",
+        "standard": "IS 1786 Commercial",
+        "source": "Corridor Ingest ex-Delhi NCR",
+        "timestamp": "2026-09-18T09:39:54.086894"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 7511.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Corridor Ingest ex-Delhi NCR",
+        "timestamp": "2026-09-18T09:39:54.073639"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 7206.5,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Corridor Ingest ex-Delhi NCR",
+        "timestamp": "2026-09-18T09:39:54.066643"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1380.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.496806"
+      }
+    }
+  },
+  "Jammu and Kashmir": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 66465.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "National Mandi & Mill Spot Index",
+        "timestamp": "2026-09-17T17:22:43.250401"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 56175.0,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "National Mandi Bourse Index",
+        "timestamp": "2026-09-17T17:22:43.256338"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 7000.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "State Dealer Trade Bulletin",
+        "timestamp": "2026-09-17T17:22:43.587986"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 6500.0,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Regional Mandi Circular",
+        "timestamp": "2026-09-17T17:22:43.593530"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1420.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.504651"
+      }
+    }
+  },
+  "Jharkhand": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 62034.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "National Mandi & Mill Spot Index",
+        "timestamp": "2026-09-17T17:22:43.261678"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 52430.0,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "National Mandi Bourse Index",
+        "timestamp": "2026-09-17T17:22:43.267122"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 7000.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "State Dealer Trade Bulletin",
+        "timestamp": "2026-09-17T17:22:43.599500"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 6500.0,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Regional Mandi Circular",
+        "timestamp": "2026-09-17T17:22:43.605146"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1020.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.474773"
+      }
+    }
+  },
+  "Goa": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 58261.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "Corridor Ingest ex-Maharashtra",
+        "timestamp": "2026-09-18T09:39:54.126008"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 49735.0,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "Corridor Ingest ex-Maharashtra",
+        "timestamp": "2026-09-18T09:39:54.113445"
+      },
+      "Local Mandi Secondary Re-roller": {
+        "spot_base_inr": 46690.0,
+        "tier": "Secondary Local Re-roller",
+        "standard": "IS 1786 Commercial",
+        "source": "Corridor Ingest ex-Maharashtra",
+        "timestamp": "2026-09-18T09:39:54.119688"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 7815.5,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Corridor Ingest ex-Maharashtra",
+        "timestamp": "2026-09-18T09:39:54.107162"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 7409.5,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Corridor Ingest ex-Maharashtra",
+        "timestamp": "2026-09-18T09:39:54.100244"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1550.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.511788"
+      }
+    }
+  },
+  "Meghalaya": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 64566.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "National Mandi & Mill Spot Index",
+        "timestamp": "2026-09-17T17:22:43.283469"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 54570.0,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "National Mandi Bourse Index",
+        "timestamp": "2026-09-17T17:22:43.289578"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 7000.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "State Dealer Trade Bulletin",
+        "timestamp": "2026-09-17T17:22:43.626350"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 6500.0,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Regional Mandi Circular",
+        "timestamp": "2026-09-17T17:22:43.632640"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1750.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.525375"
+      }
+    }
+  },
+  "Assam": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 67098.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "National Mandi & Mill Spot Index",
+        "timestamp": "2026-09-17T17:22:43.295403"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 56710.0,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "National Mandi Bourse Index",
+        "timestamp": "2026-09-17T17:22:43.300787"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 7600.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "State Dealer Trade Bulletin",
+        "timestamp": "2026-09-17T17:22:43.640458"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 7100.0,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Regional Mandi Circular",
+        "timestamp": "2026-09-17T17:22:43.646913"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1850.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.481303"
+      }
+    }
+  },
+  "Tripura": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 64566.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "National Mandi & Mill Spot Index",
+        "timestamp": "2026-09-17T17:22:43.305913"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 54570.0,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "National Mandi Bourse Index",
+        "timestamp": "2026-09-17T17:22:43.311349"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 7000.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "State Dealer Trade Bulletin",
+        "timestamp": "2026-09-17T17:22:43.653393"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 6500.0,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Regional Mandi Circular",
+        "timestamp": "2026-09-17T17:22:43.659192"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1900.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.518994"
+      }
+    }
+  },
+  "Sikkim": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 64566.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "National Mandi & Mill Spot Index",
+        "timestamp": "2026-09-17T17:22:43.316779"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 54570.0,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "National Mandi Bourse Index",
+        "timestamp": "2026-09-17T17:22:43.322134"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 7000.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "State Dealer Trade Bulletin",
+        "timestamp": "2026-09-17T17:22:43.665388"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 6500.0,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Regional Mandi Circular",
+        "timestamp": "2026-09-17T17:22:43.671438"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1820.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.546249"
+      }
+    }
+  },
+  "Manipur": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 64566.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "National Mandi & Mill Spot Index",
+        "timestamp": "2026-09-17T17:22:43.328104"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 54570.0,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "National Mandi Bourse Index",
+        "timestamp": "2026-09-17T17:22:43.334144"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 7000.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "State Dealer Trade Bulletin",
+        "timestamp": "2026-09-17T17:22:43.677870"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 6500.0,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Regional Mandi Circular",
+        "timestamp": "2026-09-17T17:22:43.684761"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1950.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.531968"
+      }
+    }
+  },
+  "Nagaland": {
+    "steel": {
+      "Tata Tiscon (Primary)": {
+        "spot_base_inr": 64566.0,
+        "tier": "Primary Integrated",
+        "standard": "IS 1786 Fe-500D (BF-BOF)",
+        "source": "National Mandi & Mill Spot Index",
+        "timestamp": "2026-09-17T17:22:43.340270"
+      },
+      "Kamdhenu Nxt (Tier-2)": {
+        "spot_base_inr": 54570.0,
+        "tier": "Secondary National",
+        "standard": "IS 1786 Fe-500 (IF-LRF)",
+        "source": "National Mandi Bourse Index",
+        "timestamp": "2026-09-17T17:22:43.346080"
+      }
+    },
+    "cement": {
+      "UltraTech Cement (Tier-1 Premium)": {
+        "spot_base_inr": 7000.0,
+        "tier": "Tier-1 Premium",
+        "standard": "IS 1489:2015 PPC",
+        "source": "State Dealer Trade Bulletin",
+        "timestamp": "2026-09-17T17:22:43.691449"
+      },
+      "Ambuja / ACC (Tier-1 Standard)": {
+        "spot_base_inr": 6500.0,
+        "tier": "Tier-1 Standard",
+        "standard": "IS 1489:2015 PPC",
+        "source": "Regional Mandi Circular",
+        "timestamp": "2026-09-17T17:22:43.697739"
+      }
+    },
+    "aggregates": {
+      "Machine Crushed Blue Metal (20mm Grade-A)": {
+        "spot_base_inr": 1980.0,
+        "tier": "Quarry Stockyard",
+        "standard": "IS 383:2016 3-Stage Cone",
+        "source": "State Mineral Permit Schedule",
+        "timestamp": "2026-09-18T11:18:56.539168"
+      }
+    }
+  }
+}

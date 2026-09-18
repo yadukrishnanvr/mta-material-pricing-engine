@@ -1,0 +1,19 @@
+{
+  "state_name": "Uttarakhand",
+  "zone": "Zone 8 (Himalayan Northern Belt)",
+  "statutory_sources": [
+    "Uttarakhand PWD Schedule of Rates",
+    "Uttarakhand Mining Directorate Riverbed RBM Auction Gazettes",
+    "Uttarakhand Labour Commissioner Minimum Wages"
+  ],
+  "ibm_anchor_weight": {
+    "limestone_share": 0.01,
+    "iron_ore_share": 0.0
+  },
+  "lead_clusters": [
+    "Haridwar/Roorkee Industrial Sinks",
+    "Gaula/Haldwani Boulder Basins",
+    "Dehradun-Rishikesh Terminals"
+  ],
+  "default_terrain": "mountainous"
+}

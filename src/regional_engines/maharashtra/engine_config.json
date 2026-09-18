@@ -1,0 +1,15 @@
+{
+  "state_name": "Maharashtra",
+  "statutory_sources": [
+    "Maharashtra PWD State Schedule of Rates (SSR)",
+    "District Survey Reports (Raigad, Thane, Pune)"
+  ],
+  "basic_rates": {
+    "cement_ppc_mt": 6100.0,
+    "steel_tmt_500_mt": 59000.0
+  },
+  "lead_clusters": [
+    "Navi Mumbai/Panvel Basalt",
+    "Pune Periphery Trap Metal"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "state_name": "Chhattisgarh",
+  "zone": "Eastern Mineral Heartland",
+  "statutory_sources": [
+    "Chhattisgarh PWD Unified Schedule of Rates (CG-SoR)",
+    "NMDC Bailadila Merchant Mining Bulletins",
+    "Chhattisgarh Mineral Resources Dept Quarry Lease Directory"
+  ],
+  "ibm_anchor_weight": {
+    "iron_ore_share": 0.166,
+    "limestone_share": 0.109
+  },
+  "primary_hubs": [
+    "Bailadila Iron Basin",
+    "Raipur-Durg Billet Clusters",
+    "Bilaspur Clinker Belt"
+  ],
+  "cement_base_inr_mt": 5150.0,
+  "steel_rebar_inr_mt": 51500.0,
+  "coarse_metal_20mm_cum": 490.0,
+  "river_sand_m_sand_cum": 440.0,
+  "handling_labor_floor_day": 425.0,
+  "conveyance_model": "Unified PWD Scale (Base 6.50 INR/t-km down to 3.90 INR/t-km)",
+  "terrain_friction": 1.2
+}

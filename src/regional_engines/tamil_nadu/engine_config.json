@@ -1,0 +1,25 @@
+{
+  "state_name": "Tamil Nadu",
+  "statutory_sources": [
+    "TN PWD-HD-WRD SoR 2025-26",
+    "Natural Resources Dept Policy Notes 24-27"
+  ],
+  "basic_rates": {
+    "cement_mt": 5602.5,
+    "steel_mt": 55665.0,
+    "rough_stone_cum": 449.4,
+    "m_sand_cum": 1578.8
+  },
+  "conveyance_rates_plains": {
+    "0-10km": 7.36,
+    "10-20km": 6.3,
+    "20-40km": 5.42,
+    "40-80km": 4.66,
+    "above80km": 4.26
+  },
+  "terrain_friction_multiplier": 2.0,
+  "handling_labor_floor": {
+    "mazdoor_cat_2": 628.0,
+    "mazdoor_cat_1": 766.0
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "state_name": "Andhra Pradesh",
+  "zone": "Zone 1 Expansion (Southern Peninsular)",
+  "statutory_sources": [
+    "AP Board of Chief Engineers Common Standard Schedule of Rates (AP CSOR)",
+    "AP Mineral Development Corporation (APMDC) E-Auction Gazettes",
+    "Directorate of Mines and Geology Minor Mineral Concession Registries"
+  ],
+  "ibm_anchor_weight": {
+    "limestone_share": 0.134,
+    "iron_ore_share": 0.005
+  },
+  "lead_clusters": [
+    "YSR Kadapa/Muddanur Clinker Belt",
+    "Palnadu/Macherla Basins",
+    "Visakhapatnam Steel/Port Corridors"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "state_name": "Himachal Pradesh",
+  "zone": "Zone 8 (Himalayan Northern Belt)",
+  "statutory_sources": [
+    "HPPWD Schedule of Rates (HPSOR Road & Bridge/Building)",
+    "HP Department of Industries Geological Wing Lease Circulars",
+    "HP Labour Department Minimum Wage Orders"
+  ],
+  "ibm_anchor_weight": {
+    "limestone_share": 0.041,
+    "iron_ore_share": 0.0
+  },
+  "lead_clusters": [
+    "Barmana/Darlaghat Clinker Hubs",
+    "Baddi Industrial Corridor",
+    "Kangra Aggregate Belts"
+  ],
+  "default_terrain": "mountainous"
+}

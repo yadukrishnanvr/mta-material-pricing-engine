@@ -1,0 +1,19 @@
+{
+  "state_name": "Meghalaya",
+  "zone": "Zone 10 (North-Eastern Limestone Anchor)",
+  "statutory_sources": [
+    "Meghalaya PWD Schedule of Rates (MPWD SOR)",
+    "Meghalaya Directorate of Mineral Resources Gazettes",
+    "Meghalaya Labour Department Minimum Wage Orders"
+  ],
+  "ibm_anchor_weight": {
+    "limestone_share": 0.038,
+    "iron_ore_share": 0.0
+  },
+  "lead_clusters": [
+    "Lumshnong/Jaintia Hills Clinker Hub",
+    "Cherrapunji/East Khasi Quartzite Leases",
+    "Byrnihat Industrial Corridor"
+  ],
+  "default_terrain": "mountainous"
+}

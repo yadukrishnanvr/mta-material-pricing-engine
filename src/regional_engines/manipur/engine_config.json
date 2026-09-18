@@ -1,0 +1,12 @@
+{
+  "state_name": "Manipur",
+  "zone": "North-Eastern Transit Frontier",
+  "statutory_sources": [
+    "Manipur PWD Schedule of Rates (MPWD SOR)"
+  ],
+  "lead_clusters": [
+    "Imphal Valley Mandis",
+    "Barak/Chindwin Gravel Basins"
+  ],
+  "default_terrain": "mountainous"
+}

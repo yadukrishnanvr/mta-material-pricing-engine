@@ -1,0 +1,13 @@
+{
+  "state_name": "Sikkim",
+  "zone": "Himalayan High-Altitude Corridor",
+  "statutory_sources": [
+    "Sikkim PWD Schedule of Rates (SPWD SOR)"
+  ],
+  "lead_clusters": [
+    "Rangpo Border Terminal",
+    "Teesta Basin Aggregate Leases",
+    "Gangtok Freight Hub"
+  ],
+  "default_terrain": "mountainous"
+}

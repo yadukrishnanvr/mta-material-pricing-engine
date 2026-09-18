@@ -1,0 +1,19 @@
+{
+  "state_name": "Jammu and Kashmir",
+  "zone": "Zone 8 (Himalayan Northern Belt)",
+  "statutory_sources": [
+    "JK PWD Schedule of Rates",
+    "J&K Geology and Mining Department Minor Mineral Rules",
+    "UT of J&K Labour & Employment Department Wage Orders"
+  ],
+  "ibm_anchor_weight": {
+    "limestone_share": 0.008,
+    "iron_ore_share": 0.0
+  },
+  "lead_clusters": [
+    "Bari Brahmana/Samba Industrial Steel Mandis",
+    "Khrew/Pulwama Clinker Belt",
+    "Jhelum Sand/Shingle Basins"
+  ],
+  "default_terrain": "mountainous"
+}

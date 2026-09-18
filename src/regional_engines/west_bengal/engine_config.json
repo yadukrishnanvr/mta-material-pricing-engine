@@ -1,0 +1,18 @@
+{
+  "state_name": "West Bengal",
+  "zone": "Zone 6 (Eastern Gangetic Maritime Belt)",
+  "statutory_sources": [
+    "West Bengal PWD Schedule of Rates (Building & Roads)",
+    "WB Mineral Development and Trading Corporation Gazettes",
+    "Labour Department West Bengal Wage Circulars"
+  ],
+  "ibm_anchor_weight": {
+    "limestone_share": 0.0,
+    "iron_ore_share": 0.0
+  },
+  "lead_clusters": [
+    "Durgapur-Asansol Steel Induction Belt",
+    "Damodar Sand Basins",
+    "Kolkata/Howrah Maritime Mandis"
+  ]
+}

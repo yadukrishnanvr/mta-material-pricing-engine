@@ -1,0 +1,16 @@
+{
+  "state_name": "Karnataka",
+  "statutory_sources": [
+    "KPWD Standard Schedule of Rates (Common/Buildings/Roads)",
+    "DMG KMMCR Quarry Registries"
+  ],
+  "ibm_weights": {
+    "limestone_share": 0.087,
+    "iron_ore_share": 0.148
+  },
+  "lead_clusters": [
+    "Chikkaballapur/Ramanagara",
+    "Sedam/Kalaburagi",
+    "Bellary/Sandur"
+  ]
+}

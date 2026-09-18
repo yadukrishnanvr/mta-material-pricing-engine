@@ -1,0 +1,18 @@
+{
+  "state_name": "Bihar",
+  "zone": "Zone 6 (Eastern Gangetic Sink)",
+  "statutory_sources": [
+    "Bihar Road Construction Department / Building PWD SoR",
+    "Bihar Mines and Geology Department Sand Auction Gazettes",
+    "Bihar Minimum Wages Advisory Board"
+  ],
+  "ibm_anchor_weight": {
+    "limestone_share": 0.0,
+    "iron_ore_share": 0.0
+  },
+  "lead_clusters": [
+    "Son River Red Sand Basins",
+    "Patna Stockyard Sinks",
+    "Barauni/Bhagalpur Terminal Belts"
+  ]
+}

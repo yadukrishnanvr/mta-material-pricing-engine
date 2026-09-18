@@ -1,0 +1,18 @@
+{
+  "state_name": "Uttar Pradesh",
+  "zone": "Zone 3 Expansion (Northern Gangetic Sink)",
+  "statutory_sources": [
+    "UP PWD Schedule of Rates (Roads & Bridges / Buildings)",
+    "Directorate of Geology & Mining UP Minor Mineral Auction Gazettes",
+    "UP Minimum Wages Advisory Board Gazettes"
+  ],
+  "ibm_anchor_weight": {
+    "limestone_share": 0.012,
+    "iron_ore_share": 0.0
+  },
+  "lead_clusters": [
+    "Sonbhadra Clinker/Aggregate Basins",
+    "Kanpur/Lucknow Mandis",
+    "Ghaziabad Secondary Re-rolling Belt"
+  ]
+}

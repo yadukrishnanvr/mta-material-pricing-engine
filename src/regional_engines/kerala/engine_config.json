@@ -1,0 +1,13 @@
+{
+  "state_name": "Kerala",
+  "statutory_sources": [
+    "Kerala DES Building Material Bulletins",
+    "DMG Quarry Concessions (5,915 records)"
+  ],
+  "calibration_factor": [
+    -0.12,
+    -0.25
+  ],
+  "handling_labor_class": "Mazdoor/Headload",
+  "terrain_friction_regime": "Western Ghats Crawl (+45% to +60%)"
+}

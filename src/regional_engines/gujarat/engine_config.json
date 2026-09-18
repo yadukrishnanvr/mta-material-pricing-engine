@@ -1,0 +1,18 @@
+{
+  "state_name": "Gujarat",
+  "zone": "Zone 5 (Western Maritime & Industrial Basin)",
+  "statutory_sources": [
+    "Gujarat Roads & Buildings (R&B) Department SOR",
+    "Gujarat Mineral Development Corporation (GMDC) Gazettes",
+    "Office of the Commissioner of Labour Gujarat Wage Orders"
+  ],
+  "ibm_anchor_weight": {
+    "limestone_share": 0.067,
+    "iron_ore_share": 0.0
+  },
+  "lead_clusters": [
+    "Saurashtra/Kutch Coastal Clinker",
+    "Sevaliya Basalt Traps",
+    "Ahmedabad/Hazira Re-rolling Clusters"
+  ]
+}

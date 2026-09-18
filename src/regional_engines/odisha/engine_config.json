@@ -1,0 +1,25 @@
+{
+  "state_name": "Odisha",
+  "zone": "Eastern Mineral Heartland",
+  "statutory_sources": [
+    "Odisha Works Department Schedule of Rates (Odisha SoR)",
+    "Odisha Mining Corporation (OMC) Iron Ore Auction E-Gazettes",
+    "Directorate of Geology Minor Mineral Concession Registries"
+  ],
+  "ibm_anchor_weight": {
+    "iron_ore_share": 0.537,
+    "limestone_share": 0.031
+  },
+  "primary_hubs": [
+    "Joda-Barbil Mining Cluster",
+    "Angul-Rourkela Steel Belts",
+    "Cuttack Sand Basins"
+  ],
+  "cement_base_inr_mt": 5200.0,
+  "steel_rebar_inr_mt": 52800.0,
+  "coarse_metal_20mm_cum": 520.0,
+  "river_sand_m_sand_cum": 410.0,
+  "handling_labor_floor_day": 450.0,
+  "conveyance_model": "Non-linear decay (Base 6.20 INR/t-km down to 3.80 INR/t-km)",
+  "terrain_friction": 1.15
+}

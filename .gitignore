@@ -1,0 +1,12 @@
+﻿__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.env
+venv/
+env/
+.vscode/
+.idea/
+*.log
+# Optional: exclude large unclassified raw document dumps if too large for GitHub (>100MB)
+# findings-docs/

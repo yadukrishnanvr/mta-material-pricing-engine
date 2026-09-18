@@ -1,0 +1,18 @@
+{
+  "state_name": "Telangana",
+  "zone": "Zone 1 Expansion (Southern Peninsular)",
+  "statutory_sources": [
+    "Telangana Board of Chief Engineers Common Standard Schedule of Rates (TS CSOR)",
+    "Telangana State Mineral Development Corporation (TSMDC) Sand Streams",
+    "Mines and Geology Department Minor Mineral Lease Audits"
+  ],
+  "ibm_anchor_weight": {
+    "limestone_share": 0.059,
+    "iron_ore_share": 0.001
+  },
+  "lead_clusters": [
+    "Nalgonda/Miryalaguda Clinker Belts",
+    "Karimnagar/Godavari Sand Basins",
+    "Hyderabad-Kukatpally Re-rolling Clusters"
+  ]
+}
