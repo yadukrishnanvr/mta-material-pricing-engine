@@ -89,7 +89,8 @@ def run_periodic_market_settlement():
         if conn:
             conn.close()
 
-def init_scheduler():
+def start_background_scheduler():
+    """Starts the APScheduler instance for periodic market settlement."""
     if not scheduler.running:
         scheduler.add_job(
             func=run_periodic_market_settlement,
@@ -100,3 +101,6 @@ def init_scheduler():
         )
         scheduler.start()
         logger.info("[SCHEDULER] Background APScheduler initialized and running on 60-min cadence.")
+
+# Alias for backward compatibility
+init_scheduler = start_background_scheduler
