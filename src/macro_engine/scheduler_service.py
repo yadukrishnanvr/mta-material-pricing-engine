@@ -90,17 +90,18 @@ def run_periodic_market_settlement():
             conn.close()
 
 def start_background_scheduler():
-    """Starts the APScheduler instance for periodic market settlement."""
+    """Starts the APScheduler instance with an immediate run on boot, then every 60 mins."""
     if not scheduler.running:
         scheduler.add_job(
             func=run_periodic_market_settlement,
             trigger=IntervalTrigger(minutes=60),
             id="multi_bourse_settlement",
             name="Update commodity spot feeds and diesel drift",
-            replace_existing=True
+            replace_existing=True,
+            next_run_time=datetime.now()
         )
         scheduler.start()
-        logger.info("[SCHEDULER] Background APScheduler initialized and running on 60-min cadence.")
+        logger.info("[SCHEDULER] Background APScheduler active with immediate boot settlement + 60m cadence.")
 
 # Alias for backward compatibility
 init_scheduler = start_background_scheduler
