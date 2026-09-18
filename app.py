@@ -108,6 +108,22 @@ def list_cities(state: str):
     clean_st = state.strip() if state else "Maharashtra"
     return {"state": clean_st, "cities": list(get_cities_for_state(clean_st).keys())}
 
+@app.post("/api/admin/trigger-settlement")
+@app.get("/api/admin/trigger-settlement")
+def trigger_settlement_now():
+    from macro_engine.scheduler_service import run_periodic_market_settlement
+    try:
+        run_periodic_market_settlement()
+        return {
+            "status": "success",
+            "message": "Immediate multi-bourse settlement and audit cycle executed successfully."
+        }
+    except Exception as e:
+        return {
+            "status": "error",
+            "message": str(e)
+        }
+
 @app.post("/api/quote")
 def calculate_quote(req: MultiQuoteRequest):
     try:

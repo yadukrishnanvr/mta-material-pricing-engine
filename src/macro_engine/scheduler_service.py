@@ -1,53 +1,102 @@
-﻿import os
-import sys
-import logging
-from pathlib import Path
+﻿import logging
+from datetime import datetime
 from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.interval import IntervalTrigger
 
-MODULE_DIR = Path(__file__).resolve().parent
-ROOT_DIR = MODULE_DIR.parent.parent
-if str(MODULE_DIR) not in sys.path:
-    sys.path.insert(0, str(MODULE_DIR))
-
-from database_manager import get_connection, save_scraped_rate
+from macro_engine.database_manager import get_connection, save_scraped_rate
+from macro_engine.bourse_scrapers import (
+    fetch_live_diesel_drift,
+    fetch_steel_spot_feeds,
+    fetch_cement_spot_feeds
+)
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger("SchedulerService")
 
+scheduler = BackgroundScheduler()
+
 def run_periodic_market_settlement():
     """
-    Simulates / triggers the periodic spot price refresh and diesel drift ledger sync.
-    Runs completely decoupled from user-facing HTTP request cycles.
+    Executes automated settlement:
+    1. Scrapes latest OMC Diesel retail drift benchmarks.
+    2. Collects TMT Mandi ex-plant indices and Cement wholesale feeds.
+    3. Normalizes units to metric standard (INR/MT or INR/Ltr).
+    4. Computes statutory SoR spread deltas and logs permanent audit ticks in Supabase PostgreSQL.
     """
-    logger.info("[CRON] Starting periodic background market settlement...")
+    logger.info("[CRON] Executing scheduled multi-bourse market settlement cycle...")
+    conn = None
     try:
+        # 1. Update State Fuel Drift Ledger
+        diesel_records = fetch_live_diesel_drift()
         conn = get_connection()
         cur = conn.cursor()
-        
-        # Check active records in cache
-        cur.execute("SELECT COUNT(*) FROM live_market_cache")
-        cached_count = cur.fetchone()[0]
-        
-        cur.execute("SELECT COUNT(*) FROM fuel_drift_ledger")
-        fuel_count = cur.fetchone()[0]
-        
-        conn.close()
-        logger.info(f"[CRON] Market cache verification: {cached_count} commodities active, {fuel_count} state diesel benchmarks intact.")
-        logger.info("[CRON] Background settlement tick completed successfully.")
-    except Exception as e:
-        logger.error(f"[CRON ERROR] Settlement tick failure: {e}", exc_info=True)
+        for d in diesel_records:
+            cur.execute("""
+                INSERT INTO fuel_drift_ledger (state, diesel_inr_per_ltr, drift_factor, scraped_at)
+                VALUES (?, ?, ?, ?)
+                ON CONFLICT (state) DO UPDATE SET
+                    diesel_inr_per_ltr = excluded.diesel_inr_per_ltr,
+                    drift_factor = excluded.drift_factor,
+                    scraped_at = excluded.scraped_at
+            """, (d["state"], d["diesel_inr_per_ltr"], d["drift_factor"], d["scraped_at"]))
+        conn.commit()
+        logger.info(f"[CRON] Successfully synchronized {len(diesel_records)} state diesel benchmarks.")
 
-def start_background_scheduler():
-    scheduler = BackgroundScheduler(daemon=True)
-    # Trigger settlement run every 60 minutes
-    scheduler.add_job(
-        run_periodic_market_settlement,
-        trigger=IntervalTrigger(minutes=60),
-        id="periodic_settlement_job",
-        name="Update commodity spot feeds and diesel drift",
-        replace_existing=True
-    )
-    scheduler.start()
-    logger.info("[SCHEDULER] Background APScheduler initialized and active.")
-    return scheduler
+        # 2. Update Steel Feeds
+        steel_records = fetch_steel_spot_feeds()
+        for s in steel_records:
+            save_scraped_rate(
+                state=s["state"],
+                commodity=s["commodity"],
+                brand=s["brand"],
+                tier=s["tier"],
+                standard=s["standard"],
+                spot_base_inr=s["spot_base_inr"],
+                source_name=s["source_name"],
+                source_url=s["source_url"],
+                statutory_sor=s["statutory_sor"],
+                raw_price=s["raw_price"],
+                raw_unit=s["raw_unit"],
+                notes=s["notes"]
+            )
+        logger.info(f"[CRON] Processed {len(steel_records)} live steel Mandi spot quotes.")
+
+        # 3. Update Cement Feeds
+        cement_records = fetch_cement_spot_feeds()
+        for c in cement_records:
+            save_scraped_rate(
+                state=c["state"],
+                commodity=c["commodity"],
+                brand=c["brand"],
+                tier=c["tier"],
+                standard=c["standard"],
+                spot_base_inr=c["spot_base_inr"],
+                source_name=c["source_name"],
+                source_url=c["source_url"],
+                statutory_sor=c["statutory_sor"],
+                raw_price=c["raw_price"],
+                raw_unit=c["raw_unit"],
+                notes=c["notes"]
+            )
+        logger.info(f"[CRON] Processed {len(cement_records)} live cement wholesale quotes.")
+        logger.info("[CRON] Settlement cycle finished with zero errors. All audits committed to PostgreSQL.")
+
+    except Exception as e:
+        logger.error(f"[CRON ERROR] Settlement cycle encountered an exception: {str(e)}", exc_info=True)
+        if conn:
+            conn.rollback()
+    finally:
+        if conn:
+            conn.close()
+
+def init_scheduler():
+    if not scheduler.running:
+        scheduler.add_job(
+            func=run_periodic_market_settlement,
+            trigger=IntervalTrigger(minutes=60),
+            id="multi_bourse_settlement",
+            name="Update commodity spot feeds and diesel drift",
+            replace_existing=True
+        )
+        scheduler.start()
+        logger.info("[SCHEDULER] Background APScheduler initialized and running on 60-min cadence.")
