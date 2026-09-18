@@ -4,7 +4,6 @@
 
 
 # --- PHASE 1: CONSUMER & HOUSE BUILDER ENDPOINTS ---
-INDEX_HTML = ROOT_DIR / "templates" / "index.html"
 
 @app.get("/api/market/snapshot")
 def get_market_snapshot(state: str = "Kerala"):
