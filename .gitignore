@@ -10,3 +10,18 @@ env/
 *.log
 # Optional: exclude large unclassified raw document dumps if too large for GitHub (>100MB)
 # findings-docs/
+
+# Local Document Repositories & Archives
+FINDINGS-DOCS/
+FINDINGS-DOCS.zip
+*.xlsx
+archive/
+seed_pg.py
+complete_pg.py
+classify_*.py
+diagnose_*.py
+reclassify_*.py
+sync_*.py
+test_*.py
+gemini-*.md
+material_trend_analysis/
