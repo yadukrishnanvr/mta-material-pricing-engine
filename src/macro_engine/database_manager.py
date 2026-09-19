@@ -80,6 +80,9 @@ def get_connection():
         return DBConnectionWrapper(conn, is_postgres=False)
 
 def init_live_db():
+    conn = get_connection()
+    ensure_schema_compatibility(conn)
+    conn.close()
     if IS_POSTGRES:
         logger.info("[DATABASE] Connecting to Production PostgreSQL instance...")
     else:
@@ -259,3 +262,16 @@ def save_scraped_rate(state, commodity, brand, tier, standard, spot_base_inr,
 
 if __name__ == "__main__":
     init_live_db()
+
+
+def ensure_schema_compatibility(conn):
+    try:
+        cur = conn.cursor()
+        # Check SQLite table columns
+        cur.execute("PRAGMA table_info(live_market_cache);")
+        cols = [r[1] for r in cur.fetchall()]
+        if cols and "notes" not in cols:
+            cur.execute("ALTER TABLE live_market_cache ADD COLUMN notes TEXT;")
+            conn.commit()
+    except Exception:
+        pass
