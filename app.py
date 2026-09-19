@@ -56,6 +56,10 @@ class EscalationRequest(BaseModel):
     contract_value: float
     material_weight: Optional[float] = None
 
+@app.get("/health")
+def health_check():
+    return {"status": "healthy"}
+
 @app.get("/", response_class=FileResponse)
 def serve_index():
     if INDEX_HTML.exists():
