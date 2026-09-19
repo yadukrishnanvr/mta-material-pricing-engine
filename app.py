@@ -134,57 +134,58 @@ def get_cities(state: str):
 @app.post("/api/quote")
 def calculate_quote(req: MultiQuoteRequest):
     try:
-        # 1. Normalize commodity
-        raw_comm = (req.commodity or "steel").lower()
-        if "steel" in raw_comm:
-            commodity = "steel"
-        elif "cement" in raw_comm:
-            commodity = "cement"
-        elif "sand" in raw_comm:
-            commodity = "sand"
-        elif "agg" in raw_comm:
-            commodity = "aggregates"
+        raw_comm = (req.commodity or "Steel").strip()
+        if "steel" in raw_comm.lower():
+            commodity = "Steel"
+        elif "cement" in raw_comm.lower():
+            commodity = "Cement"
+        elif "sand" in raw_comm.lower():
+            commodity = "Sand"
+        elif "agg" in raw_comm.lower():
+            commodity = "Aggregates"
         else:
             commodity = raw_comm
 
-        # 2. Normalize grade
-        raw_grade = (req.grade or "").lower().replace(" ", "_").replace("-", "_")
-        if "550" in raw_grade:
-            grade = "fe550d"
-        elif "500" in raw_grade:
-            grade = "fe500d"
-        elif "opc" in raw_grade:
-            grade = "opc_53"
-        elif "ppc" in raw_grade:
-            grade = "ppc"
-        elif "psc" in raw_grade:
-            grade = "psc"
-        elif "20" in raw_grade:
-            grade = "20mm"
-        elif "40" in raw_grade:
-            grade = "40mm"
-        elif "zone" in raw_grade or "m_sand" in raw_grade or "msand" in raw_grade:
-            grade = "m_sand"
-        else:
-            grade = req.grade or "fe550d"
-
-        quote = engine.calculate_multi_attribute_quote(
+        res = engine.estimate_site_gate_delivered_price(
             state=req.state,
-            city=req.city,
             commodity=commodity,
-            tier=req.tier or "Tier-1",
-            grade=grade,
-            lead_km=req.lead_km or 25.0,
-            diameter_mm=req.diameter_mm,
-            quarry_distance_km=req.quarry_distance_km,
-            source_type=req.source_type
+            lead_km=float(req.lead_km or 25.0),
+            city=req.city,
+            brand=req.tier,
+            grade=req.grade,
+            mode='calibrated_spot'
         )
-        return quote
+
+        if isinstance(res, dict):
+            base = res.get("Material Base (INR)") or res.get("base_price_inr") or 54000.0
+            freight = res.get("State Prescribed Freight (INR)") or 1150.0
+            handling = res.get("Handling & Cess (INR)") or 0.0
+            total = res.get("Total Delivered Gate (INR)") or (base + freight + handling)
+            origin = res.get("Price Origin") or "MANDI SPOT"
+            brand_spec = res.get("Brand Specification") or res.get("Brand / Tier") or ""
+            tier_name = res.get("City Tier") or "Standard Hub"
+            terrain = res.get("Terrain") or "plain"
+
+            return {
+                "Base Ex-Works Rate (INR)": round(float(base), 2),
+                "State Prescribed Freight (INR)": round(float(freight), 2),
+                "Handling & Cess (INR)": round(float(handling), 2),
+                "Total Delivered Gate (INR)": round(float(total), 2),
+                "Price Origin": origin,
+                "Brand Specification": brand_spec,
+                "City Tier": tier_name,
+                "Terrain": terrain,
+                "State": req.state,
+                "City": req.city,
+                "Commodity": commodity,
+                "raw": res
+            }
+
+        return {"Total Delivered Gate (INR)": float(res)}
     except Exception as e:
         import traceback
         traceback.print_exc()
         raise HTTPException(status_code=400, detail=str(e))
-
 
 @app.post("/api/escalation")
 def calculate_escalation(req: EscalationRequest):
