@@ -105,28 +105,86 @@ def trigger_settlement_now():
     except Exception as e:
         return {"status": "error", "message": str(e)}
 
+@app.get("/api/states")
+def get_states_list():
+    from macro_engine.city_tier_registry import CITY_TIER_DATABASE
+    states = sorted([k for k in CITY_TIER_DATABASE.keys() if k != "DEFAULT"])
+    return {"states": states}
+
 @app.get("/api/cities")
 def get_cities(state: str):
-    cities = get_cities_for_state(state)
-    return {"state": state, "cities": cities}
+    raw_cities = get_cities_for_state(state)
+    if isinstance(raw_cities, dict):
+        city_names = list(raw_cities.keys())
+        profiles = raw_cities
+    elif isinstance(raw_cities, list):
+        city_names = raw_cities
+        profiles = {c: {"tier": "Tier-2", "tier_multiplier": 1.0} for c in raw_cities}
+    else:
+        city_names = [f"{state} Central"]
+        profiles = {city_names[0]: {"tier": "Tier-2", "tier_multiplier": 1.0}}
+
+    return {
+        "state": state,
+        "cities": city_names,
+        "profiles": profiles
+    }
+
 
 @app.post("/api/quote")
 def calculate_quote(req: MultiQuoteRequest):
     try:
+        # 1. Normalize commodity
+        raw_comm = (req.commodity or "steel").lower()
+        if "steel" in raw_comm:
+            commodity = "steel"
+        elif "cement" in raw_comm:
+            commodity = "cement"
+        elif "sand" in raw_comm:
+            commodity = "sand"
+        elif "agg" in raw_comm:
+            commodity = "aggregates"
+        else:
+            commodity = raw_comm
+
+        # 2. Normalize grade
+        raw_grade = (req.grade or "").lower().replace(" ", "_").replace("-", "_")
+        if "550" in raw_grade:
+            grade = "fe550d"
+        elif "500" in raw_grade:
+            grade = "fe500d"
+        elif "opc" in raw_grade:
+            grade = "opc_53"
+        elif "ppc" in raw_grade:
+            grade = "ppc"
+        elif "psc" in raw_grade:
+            grade = "psc"
+        elif "20" in raw_grade:
+            grade = "20mm"
+        elif "40" in raw_grade:
+            grade = "40mm"
+        elif "zone" in raw_grade or "m_sand" in raw_grade or "msand" in raw_grade:
+            grade = "m_sand"
+        else:
+            grade = req.grade or "fe550d"
+
         quote = engine.calculate_multi_attribute_quote(
             state=req.state,
             city=req.city,
-            commodity=req.commodity,
-            tier=req.tier,
-            grade=req.grade,
-            lead_km=req.lead_km,
+            commodity=commodity,
+            tier=req.tier or "Tier-1",
+            grade=grade,
+            lead_km=req.lead_km or 25.0,
             diameter_mm=req.diameter_mm,
             quarry_distance_km=req.quarry_distance_km,
             source_type=req.source_type
         )
         return quote
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         raise HTTPException(status_code=400, detail=str(e))
+
 
 @app.post("/api/escalation")
 def calculate_escalation(req: EscalationRequest):

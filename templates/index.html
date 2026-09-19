@@ -3,28 +3,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MTA Material Pricing & Trend Engine | Residential & Infrastructure</title>
+  <title>MTA Material Trend Engine | Pan-India Construction Intelligence</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    select option { background-color: #0f172a; color: #f8fafc; }
   </style>
 </head>
 <body class="bg-slate-950 text-slate-100 min-h-screen">
 
-  <!-- Header -->
-  <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 py-3.5 flex flex-wrap justify-between items-center gap-4">
+  <!-- Top Header -->
+  <header class="border-b border-slate-800 bg-slate-900/90 backdrop-blur sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex flex-wrap justify-between items-center gap-3">
       <div class="flex items-center gap-3">
         <div class="w-10 h-10 rounded-xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-xl border border-emerald-500/30">🏗️</div>
         <div>
-          <h1 class="font-bold text-lg text-white leading-tight">MTA Material Trend Engine</h1>
-          <p class="text-xs text-slate-400">Pan-India Spot Pricing, Multi-Attribute Quotes & House Construction Analytics</p>
+          <h1 class="font-bold text-base md:text-lg text-white">MTA Material Trend & Pricing Engine</h1>
+          <p class="text-xs text-slate-400">Pan-India Spot Benchmarks • Statutory SoR Baseline • House Construction Estimator</p>
         </div>
       </div>
-      <div class="flex items-center gap-3">
+      <div class="flex items-center gap-2">
         <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-          <span class="w-2 h-2 rounded-full bg-emerald-400 mr-2 animate-pulse"></span> Live PostgreSQL Engine
+          <span class="w-2 h-2 rounded-full bg-emerald-400 mr-2 animate-pulse"></span> Connected to PostgreSQL
         </span>
       </div>
     </div>
@@ -34,29 +35,19 @@
 
     <!-- 1. MATERIAL MARKET SNAPSHOT BAR -->
     <section>
-      <div class="flex justify-between items-center mb-3">
+      <div class="flex flex-wrap justify-between items-center mb-3 gap-2">
         <div>
-          <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400">Market Retail Snapshot</h2>
-          <p class="text-xs text-slate-500">Benchmark site-delivered rates in standard construction units</p>
+          <h2 class="text-xs font-bold uppercase tracking-wider text-slate-400">Live Market Retail Bar</h2>
+          <p class="text-xs text-slate-500">Benchmark site-delivered rates in everyday house construction units</p>
         </div>
         <div class="flex items-center gap-2">
-          <label class="text-xs text-slate-400">State:</label>
-          <select id="snapshotStateSelect" class="bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg px-2.5 py-1 focus:border-emerald-500">
-            <option value="Kerala" selected>Kerala</option>
-            <option value="Tamil Nadu">Tamil Nadu</option>
-            <option value="Karnataka">Karnataka</option>
-            <option value="Maharashtra">Maharashtra</option>
-            <option value="Delhi">Delhi NCR</option>
-            <option value="Gujarat">Gujarat</option>
-            <option value="Andhra Pradesh">Andhra Pradesh</option>
-            <option value="Telangana">Telangana</option>
-            <option value="Uttar Pradesh">Uttar Pradesh</option>
-            <option value="West Bengal">West Bengal</option>
+          <label class="text-xs text-slate-400">Region:</label>
+          <select id="stateSelect" class="bg-slate-900 border border-slate-700 text-slate-200 text-xs rounded-lg px-2.5 py-1.5 focus:border-emerald-500">
+            <!-- Dynamically populated from /api/states -->
           </select>
         </div>
       </div>
       <div id="snapshotBar" class="grid grid-cols-2 lg:grid-cols-4 gap-4">
-        <!-- Dynamic Cards -->
         <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl animate-pulse h-28"></div>
         <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl animate-pulse h-28"></div>
         <div class="bg-slate-900 border border-slate-800 p-4 rounded-xl animate-pulse h-28"></div>
@@ -64,100 +55,87 @@
       </div>
     </section>
 
-    <!-- 2. MULTI-ATTRIBUTE PRICING ENGINE + QUOTE SUMMARY -->
+    <!-- 2. MULTI-ATTRIBUTE SPECIFICATION ENGINE (CASCADING DROPDOWNS) -->
     <section class="grid grid-cols-1 lg:grid-cols-3 gap-6">
       
-      <!-- Configuration Form (2 Cols) -->
+      <!-- Input Panel (2 Cols) -->
       <div class="lg:col-span-2 bg-slate-900 border border-slate-800 p-5 rounded-2xl space-y-4">
         <div class="border-b border-slate-800 pb-3 flex justify-between items-center">
           <div>
             <h3 class="font-bold text-white text-base">Multi-Attribute Specification Engine</h3>
-            <p class="text-xs text-slate-400">Custom pricing considering local market tiers, brands, rolling margins & freight</p>
+            <p class="text-xs text-slate-400">Configured to BIS Standards with local logistics and mandi premiums</p>
           </div>
-          <span class="text-xs font-mono text-emerald-400 bg-emerald-500/10 px-2 py-1 rounded">IS Standards Enforced</span>
+          <span id="specCodeBadge" class="text-xs font-mono text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-2 py-1 rounded">IS 1786:2008</span>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <!-- State -->
+          <!-- Commodity Selector -->
           <div>
-            <label class="block text-xs font-medium text-slate-300 mb-1">State / Jurisdiction</label>
-            <select id="calcState" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:border-emerald-500">
-              <option value="Kerala" selected>Kerala</option>
-              <option value="Tamil Nadu">Tamil Nadu</option>
-              <option value="Karnataka">Karnataka</option>
-              <option value="Maharashtra">Maharashtra</option>
-              <option value="Delhi">Delhi NCR</option>
-              <option value="Gujarat">Gujarat</option>
-              <option value="Andhra Pradesh">Andhra Pradesh</option>
-              <option value="Telangana">Telangana</option>
-              <option value="Uttar Pradesh">Uttar Pradesh</option>
-              <option value="West Bengal">West Bengal</option>
-            </select>
-          </div>
-
-          <!-- Local Market / City -->
-          <div>
-            <label class="block text-xs font-medium text-slate-300 mb-1">City / Mandi Hub</label>
-            <select id="calcCity" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:border-emerald-500">
-              <option value="Kochi" selected>Kochi</option>
-            </select>
-          </div>
-
-          <!-- Commodity -->
-          <div>
-            <label class="block text-xs font-medium text-slate-300 mb-1">Commodity</label>
+            <label class="block text-xs font-semibold text-slate-300 mb-1">Commodity</label>
             <select id="calcCommodity" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:border-emerald-500">
               <option value="Steel" selected>Steel (TMT Rebar)</option>
               <option value="Cement">Cement</option>
+              <option value="Sand">Sand / M-Sand</option>
               <option value="Aggregates">Coarse Aggregates</option>
-              <option value="Sand">M-Sand / River Sand</option>
             </select>
           </div>
 
-          <!-- Tier -->
+          <!-- City / Mandi Hub (e.g. Palakkad Corridor, Kochi) -->
           <div>
-            <label class="block text-xs font-medium text-slate-300 mb-1">Manufacturer Tier</label>
+            <label class="block text-xs font-semibold text-slate-300 mb-1">Local Hub / Center</label>
+            <select id="calcCity" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:border-emerald-500">
+              <option value="">Loading hubs...</option>
+            </select>
+          </div>
+
+          <!-- Dynamic Tier / Manufacturer Type -->
+          <div>
+            <label id="tierLabel" class="block text-xs font-semibold text-slate-300 mb-1">Manufacturer Tier</label>
             <select id="calcTier" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:border-emerald-500">
-              <option value="Tier-1" selected>Tier-1 (Primary Mills)</option>
-              <option value="Tier-2">Tier-2 (Regional Re-Rollers)</option>
+              <!-- Dynamically populated -->
             </select>
           </div>
 
-          <!-- Grade / Brand Spec -->
+          <!-- Dynamic Grade / Brand Specification -->
           <div>
-            <label class="block text-xs font-medium text-slate-300 mb-1">Grade / Specification</label>
+            <label id="gradeLabel" class="block text-xs font-semibold text-slate-300 mb-1">Grade / Specification</label>
             <select id="calcGrade" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:border-emerald-500">
-              <option value="Fe550D" selected>Fe 550D (High Ductility)</option>
-              <option value="Fe500D">Fe 500D (Standard Seismic)</option>
-              <option value="OPC 53">OPC 53 Grade</option>
-              <option value="PPC">PPC (Blended)</option>
-              <option value="20mm">20mm Blue Metal</option>
-              <option value="Zone-II">M-Sand (Zone II)</option>
+              <!-- Dynamically populated -->
             </select>
           </div>
 
-          <!-- Lead Haulage Distance -->
+          <!-- Lead Transport Distance -->
           <div>
-            <label class="block text-xs font-medium text-slate-300 mb-1">Transport Lead (km)</label>
+            <label class="block text-xs font-semibold text-slate-300 mb-1">Transport Lead (km)</label>
             <input type="number" id="calcLeadKm" value="25" min="1" max="500" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:border-emerald-500" />
+          </div>
+
+          <!-- Hub Tier Indicator -->
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 mb-1">Hub Classification</label>
+            <div id="hubClassification" class="w-full bg-slate-950 border border-slate-800 rounded-lg px-3 py-2 text-xs font-mono text-slate-300 flex items-center justify-between">
+              <span>Tier-1 Urban</span>
+              <span class="text-emerald-400 text-[10px]">+3.5% octroi/cess</span>
+            </div>
           </div>
         </div>
 
-        <div class="pt-2 flex justify-end">
-          <button onclick="calculateDetailedQuote()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs px-5 py-2.5 rounded-lg transition shadow-lg shadow-emerald-900/30">
-            Compute Delivered Gate Quote
+        <div class="pt-2 flex justify-between items-center">
+          <span id="specNote" class="text-xs text-slate-400 font-medium">IS 1786:2008 High-Ductility Rebar</span>
+          <button id="btnQuote" onclick="calculateDetailedQuote()" class="bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-xs px-5 py-2.5 rounded-lg transition shadow-lg shadow-emerald-900/30 flex items-center gap-2">
+            <span>⚡ Compute Delivered Gate Quote</span>
           </button>
         </div>
       </div>
 
-      <!-- Quote Output Card (1 Col) -->
+      <!-- Quote Output Summary (1 Col) -->
       <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl flex flex-col justify-between">
         <div>
           <div class="flex justify-between items-center mb-3">
-            <h3 class="font-bold text-white text-base">Delivered Gate Cost</h3>
-            <span id="quoteOriginBadge" class="text-[10px] px-2 py-0.5 rounded font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">LIVE QUOTE</span>
+            <h3 class="font-bold text-white text-base">Delivered Gate Quote</h3>
+            <span id="quoteOriginBadge" class="text-[10px] px-2 py-0.5 rounded font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">MANDI LIVE</span>
           </div>
-          <div class="space-y-3 text-xs">
+          <div class="space-y-2.5 text-xs">
             <div class="flex justify-between text-slate-400 pb-1 border-b border-slate-800">
               <span>Base Ex-Works:</span>
               <span id="quoteBaseExWorks" class="font-mono text-slate-200">₹54,500.00 / MT</span>
@@ -167,32 +145,32 @@
               <span id="quotePremium" class="font-mono text-slate-200">₹1,200.00 / MT</span>
             </div>
             <div class="flex justify-between text-slate-400 pb-1 border-b border-slate-800">
-              <span>Freight Haulage (<span id="quoteFreightKm">25</span> km):</span>
+              <span>Prescribed Freight (<span id="quoteFreightKm">25</span> km):</span>
               <span id="quoteFreight" class="font-mono text-slate-200">₹1,150.00 / MT</span>
             </div>
             <div class="flex justify-between text-slate-400 pb-1 border-b border-slate-800">
-              <span>Fuel Drift Adjusted:</span>
+              <span>Fuel Drift Multiplier:</span>
               <span id="quoteFuelDrift" class="font-mono text-slate-200">1.04x</span>
             </div>
           </div>
         </div>
 
         <div class="mt-4 pt-3 border-t border-slate-800">
-          <span class="text-xs text-slate-400 font-medium block mb-1">Total Delivered Rate:</span>
+          <span class="text-xs text-slate-400 font-medium block mb-1">Delivered Gate Total:</span>
           <div class="flex items-baseline gap-2">
             <span id="quoteTotalDelivered" class="text-2xl font-black text-emerald-400">₹56,850.00</span>
             <span id="quoteUnit" class="text-xs text-slate-400">/ MT</span>
           </div>
-          <div class="text-[11px] text-slate-500 mt-1 flex justify-between">
-            <span>Retail Equivalent:</span>
-            <span id="quoteRetailEquiv" class="font-bold text-slate-300">₹56.85 / kg</span>
+          <div class="text-xs text-slate-400 mt-1 flex justify-between bg-slate-950 p-2 rounded-lg border border-slate-800">
+            <span>House Builder Equivalent:</span>
+            <span id="quoteRetailEquiv" class="font-bold text-emerald-300">₹56.85 / kg</span>
           </div>
         </div>
       </div>
 
     </section>
 
-    <!-- 3. TREND CHART & HOUSE ESTIMATOR -->
+    <!-- 3. TREND CHART & HOUSE STRUCTURAL ESTIMATOR -->
     <section class="grid grid-cols-1 lg:grid-cols-3 gap-6">
       
       <!-- Trend Visualizer (2 Cols) -->
@@ -200,52 +178,52 @@
         <div class="flex flex-wrap justify-between items-center gap-3 mb-4">
           <div>
             <h3 class="font-bold text-white text-base">Historical Price Trend vs. Statutory SoR Baseline</h3>
-            <p class="text-xs text-slate-400">Tracks spot ex-works movement against official state Schedule of Rates</p>
+            <p class="text-xs text-slate-400">Spot market price compared with statutory Public Works schedule</p>
           </div>
           <div class="flex items-center gap-2">
-            <button onclick="setTrendCommodity('Steel')" id="btnTrendSteel" class="px-3 py-1 rounded-lg text-xs font-semibold bg-emerald-600 text-white">Steel</button>
+            <button onclick="setTrendCommodity('Steel')" id="btnTrendSteel" class="px-3 py-1 rounded-lg text-xs font-semibold bg-emerald-600 text-white shadow">Steel</button>
             <button onclick="setTrendCommodity('Cement')" id="btnTrendCement" class="px-3 py-1 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700">Cement</button>
           </div>
         </div>
 
-        <div class="h-64 relative">
+        <div style="position: relative; height: 260px; width: 100%;">
           <canvas id="trendChart"></canvas>
         </div>
 
         <!-- Buy / Wait Signal Banner -->
-        <div id="recommendationCard" class="mt-4 p-3 rounded-xl bg-slate-800/80 border border-slate-700/60 flex items-center justify-between">
+        <div id="recommendationCard" class="mt-4 p-3 rounded-xl bg-slate-800/90 border border-slate-700 flex items-center justify-between">
           <div class="flex items-center gap-3">
-            <div id="signalBadge" class="w-3 h-3 rounded-full bg-emerald-400"></div>
-            <span id="signalText" class="text-xs md:text-sm font-medium text-slate-200">Analyzing price spread...</span>
+            <div id="signalBadge" class="w-3.5 h-3.5 rounded-full bg-emerald-400"></div>
+            <span id="signalText" class="text-xs md:text-sm font-semibold text-slate-200">Evaluating market trend...</span>
           </div>
-          <span id="spreadValue" class="text-xs font-mono text-slate-400">-</span>
+          <span id="spreadValue" class="text-xs font-mono text-emerald-400 font-bold">-</span>
         </div>
       </div>
 
-      <!-- House Estimator Sandbox (1 Col) -->
+      <!-- House Construction Estimator Sandbox (1 Col) -->
       <div class="bg-slate-900 border border-slate-800 p-5 rounded-2xl flex flex-col justify-between">
         <div>
           <div class="flex items-center gap-2 mb-1">
-            <span class="text-lg">🏡</span>
-            <h3 class="font-bold text-white text-base">House Construction Estimator</h3>
+            <span class="text-xl">🏡</span>
+            <h3 class="font-bold text-white text-base">House Structural Estimator</h3>
           </div>
           <p class="text-xs text-slate-400 mb-4">Instant bill of materials for RCC structure (Slab, Columns, Footings)</p>
 
           <div class="space-y-3">
             <div>
-              <label class="block text-xs font-medium text-slate-300 mb-1">Built-Up Area (sq. ft)</label>
+              <label class="block text-xs font-semibold text-slate-300 mb-1">Built-Up Area (sq. ft)</label>
               <input type="number" id="builtupArea" value="2000" min="500" max="15000" step="100" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:border-emerald-500" />
             </div>
 
             <div>
-              <label class="block text-xs font-medium text-slate-300 mb-1">Structural Configuration</label>
+              <label class="block text-xs font-semibold text-slate-300 mb-1">Structural Configuration</label>
               <select id="structureType" class="w-full bg-slate-800 border border-slate-700 rounded-lg px-3 py-2 text-sm text-white focus:border-emerald-500">
                 <option value="standard" selected>Standard G+1 Residential (3.8 kg rebar/sqft)</option>
                 <option value="heavy">Heavy G+2 Residential (4.4 kg rebar/sqft)</option>
               </select>
             </div>
 
-            <div class="bg-slate-950 p-3 rounded-xl border border-slate-800/80 space-y-2 text-xs">
+            <div class="bg-slate-950 p-3 rounded-xl border border-slate-800 space-y-2 text-xs">
               <div class="flex justify-between text-slate-400">
                 <span>TMT Steel Required:</span>
                 <span id="calcSteelQty" class="font-semibold text-slate-200">~7.6 MT (7,600 kg)</span>
@@ -264,10 +242,10 @@
 
         <div class="mt-4 pt-3 border-t border-slate-800">
           <div class="flex justify-between items-baseline mb-1">
-            <span class="text-xs text-slate-400 font-medium">Estimated Structural Cost:</span>
-            <span id="calcTotalCost" class="text-xl font-bold text-emerald-400">₹8,45,000</span>
+            <span class="text-xs text-slate-400 font-semibold">Estimated Structural Cost:</span>
+            <span id="calcTotalCost" class="text-xl font-black text-emerald-400">₹8,45,000</span>
           </div>
-          <p class="text-[11px] text-slate-500">Calculated using live state spot rates</p>
+          <p class="text-[11px] text-slate-500">Calculated from active state spot rates</p>
         </div>
       </div>
 
@@ -275,12 +253,172 @@
   </main>
 
   <script>
+    const COMMODITY_SPECS = {
+      "Steel": {
+        code: "IS 1786:2008",
+        tierLabel: "Manufacturer Tier",
+        tiers: [
+          { value: "Tier-1", text: "Tier-1 (Primary Mills: Tata, SAIL, JSW)" },
+          { value: "Tier-2", text: "Tier-2 (Secondary Induction Re-Rollers)" }
+        ],
+        gradeLabel: "Grade (IS 1786:2008)",
+        grades: [
+          { value: "fe550d", text: "Fe 550D (High Ductility Seismic)" },
+          { value: "fe500d", text: "Fe 500D (Standard RCC Rebar)" }
+        ],
+        note: "IS 1786:2008 High-Ductility TMT Rebar"
+      },
+      "Cement": {
+        code: "IS 269:2015",
+        tierLabel: "Cement Brand Tier",
+        tiers: [
+          { value: "Tier-1", text: "Tier-1 (UltraTech, ACC, Dalmia, Ramco)" },
+          { value: "Tier-2", text: "Tier-2 (Regional Blended)" }
+        ],
+        gradeLabel: "Grade (IS 269:2015)",
+        grades: [
+          { value: "opc_53", text: "OPC 53 Grade (High Early Strength)" },
+          { value: "ppc", text: "PPC (Fly-ash Blended)" },
+          { value: "psc", text: "PSC (Portland Slag Cement)" }
+        ],
+        note: "IS 269:2015 Structural Hydraulic Cement"
+      },
+      "Sand": {
+        code: "IS 383:2016",
+        tierLabel: "Sourcing Type",
+        tiers: [
+          { value: "Tier-1", text: "Manufactured Sand (VSI 3-Stage Crushed)" },
+          { value: "Tier-2", text: "River Sand (Government Allotted)" }
+        ],
+        gradeLabel: "Grading Zone (IS 383:2016)",
+        grades: [
+          { value: "m_sand", text: "Zone II (RCC Concrete M-Sand)" },
+          { value: "plastering", text: "P-Sand (Finely Screened Plaster)" }
+        ],
+        note: "IS 383:2016 Coarse/Fine Mineral Aggregate"
+      },
+      "Aggregates": {
+        code: "IS 383:2016",
+        tierLabel: "Crushing Method",
+        tiers: [
+          { value: "Tier-1", text: "3-Stage Cone Crushed Blue Metal" },
+          { value: "Tier-2", text: "Jaw Crushed Granite" }
+        ],
+        gradeLabel: "Aggregate Size (IS 383:2016)",
+        grades: [
+          { value: "20mm", text: "20mm Single Size (Slab / Beams)" },
+          { value: "40mm", text: "40mm Graded (Mass Foundation / Footing)" }
+        ],
+        note: "IS 383:2016 Coarse Hard Granite Stone"
+      }
+    };
+
     let activeState = 'Kerala';
     let activeTrendCommodity = 'Steel';
     let trendChartInstance = null;
+    let currentCityProfiles = {};
     let retailPrices = { steelPerKg: 54.5, cementPerBag: 420.0, sandPerCuft: 54.0 };
 
-    // 1. Snapshot Bar
+    // 1. Initialize State Selectors
+    async function initStates() {
+      const snapSel = document.getElementById('stateSelect');
+      snapSel.innerHTML = '';
+      try {
+        const res = await fetch('/api/states');
+        const data = await res.json();
+        const states = data.states || ['Kerala', 'Tamil Nadu', 'Karnataka', 'Maharashtra', 'Delhi NCR', 'Rajasthan'];
+        states.forEach(st => {
+          const opt = document.createElement('option');
+          opt.value = st;
+          opt.innerText = st;
+          if (st === 'Kerala') opt.selected = true;
+          snapSel.appendChild(opt);
+        });
+      } catch (e) {
+        console.error("States error:", e);
+        ['Kerala', 'Tamil Nadu', 'Karnataka', 'Maharashtra', 'Delhi NCR', 'Rajasthan'].forEach(st => {
+          const opt = document.createElement('option');
+          opt.value = st;
+          opt.innerText = st;
+          if (st === 'Kerala') opt.selected = true;
+          snapSel.appendChild(opt);
+        });
+      }
+      updateCommodityDropdowns();
+    }
+
+    // 2. Dynamic Cascading Commodity Spec Updates
+    function updateCommodityDropdowns() {
+      const comm = document.getElementById('calcCommodity').value;
+      const cfg = COMMODITY_SPECS[comm] || COMMODITY_SPECS["Steel"];
+
+      document.getElementById('specCodeBadge').innerText = cfg.code;
+      document.getElementById('tierLabel').innerText = cfg.tierLabel;
+      document.getElementById('gradeLabel').innerText = cfg.gradeLabel;
+      document.getElementById('specNote').innerText = cfg.note;
+
+      const tierSel = document.getElementById('calcTier');
+      tierSel.innerHTML = '';
+      cfg.tiers.forEach(t => {
+        const opt = document.createElement('option');
+        opt.value = t.value;
+        opt.innerText = t.text;
+        tierSel.appendChild(opt);
+      });
+
+      const gradeSel = document.getElementById('calcGrade');
+      gradeSel.innerHTML = '';
+      cfg.grades.forEach(g => {
+        const opt = document.createElement('option');
+        opt.value = g.value;
+        opt.innerText = g.text;
+        gradeSel.appendChild(opt);
+      });
+    }
+
+    // 3. Fetch Tier Centers (e.g. Palakkad Corridor for Kerala)
+    async function updateCities(state) {
+      const citySel = document.getElementById('calcCity');
+      citySel.innerHTML = '<option value="">Loading hubs...</option>';
+      try {
+        const res = await fetch(`/api/cities?state=${encodeURIComponent(state)}`);
+        const data = await res.json();
+        citySel.innerHTML = '';
+
+        currentCityProfiles = data.profiles || {};
+        const citiesList = Array.isArray(data.cities) ? data.cities : Object.keys(currentCityProfiles);
+
+        if (citiesList.length > 0) {
+          citiesList.forEach((c, idx) => {
+            const opt = document.createElement('option');
+            opt.value = c;
+            opt.innerText = c;
+            if (idx === 0) opt.selected = true;
+            citySel.appendChild(opt);
+          });
+        } else {
+          citySel.innerHTML = `<option value="${state} Central">${state} Central</option>`;
+        }
+        updateHubBadge();
+      } catch (e) {
+        console.error("Cities error:", e);
+        citySel.innerHTML = `<option value="${state} Central">${state} Central</option>`;
+      }
+    }
+
+    function updateHubBadge() {
+      const selectedCity = document.getElementById('calcCity').value;
+      const profile = currentCityProfiles[selectedCity];
+      const badgeContainer = document.getElementById('hubClassification');
+      if (profile) {
+        const cess = profile.octroi_cess_inr ? `+₹${profile.octroi_cess_inr} cess` : '';
+        badgeContainer.innerHTML = `<span>${profile.tier || 'Tier Hub'}</span><span class="text-emerald-400 text-[10px]">${cess}</span>`;
+      } else {
+        badgeContainer.innerHTML = `<span>Standard Urban</span><span class="text-slate-400 text-[10px]">Normal Rate</span>`;
+      }
+    }
+
+    // 4. Load Snapshot Bar
     async function loadSnapshot(state) {
       try {
         const res = await fetch(`/api/market/snapshot?state=${encodeURIComponent(state)}`);
@@ -288,7 +426,7 @@
         const container = document.getElementById('snapshotBar');
         container.innerHTML = '';
 
-        data.items.forEach(item => {
+        (data.items || []).forEach(item => {
           if (item.id === 'steel') retailPrices.steelPerKg = item.price;
           if (item.id === 'cement') retailPrices.cementPerBag = item.price;
           if (item.id === 'msand') retailPrices.sandPerCuft = item.price;
@@ -310,37 +448,14 @@
         });
         updateEstimator();
       } catch (e) {
-        console.error("Snapshot load error:", e);
+        console.error("Snapshot error:", e);
       }
     }
 
-    // 2. City Dropdown Sync
-    async function updateCities(state) {
-      try {
-        const res = await fetch(`/api/cities?state=${encodeURIComponent(state)}`);
-        const data = await res.json();
-        const citySel = document.getElementById('calcCity');
-        citySel.innerHTML = '';
-        if (data.cities && data.cities.length > 0) {
-          data.cities.forEach((c, idx) => {
-            const opt = document.createElement('option');
-            opt.value = c;
-            opt.innerText = c;
-            if (idx === 0) opt.selected = true;
-            citySel.appendChild(opt);
-          });
-        } else {
-          citySel.innerHTML = `<option value="${state} Central">${state} Central</option>`;
-        }
-      } catch (e) {
-        console.error("City update error:", e);
-      }
-    }
-
-    // 3. Multi-Attribute Quote Calculation
+    // 5. Calculate Multi-Attribute Quote
     async function calculateDetailedQuote() {
-      const state = document.getElementById('calcState').value;
-      const city = document.getElementById('calcCity').value;
+      const state = activeState;
+      const city = document.getElementById('calcCity').value || "Kochi";
       const commodity = document.getElementById('calcCommodity').value;
       const tier = document.getElementById('calcTier').value;
       const grade = document.getElementById('calcGrade').value;
@@ -352,6 +467,8 @@
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ state, city, commodity, tier, grade, lead_km })
         });
+        
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
         const data = await res.json();
 
         const base = data['Base Ex-Works Rate (INR)'] || 54000;
@@ -381,11 +498,11 @@
         document.getElementById('quoteUnit').innerText = unit;
         document.getElementById('quoteRetailEquiv').innerText = `₹${retail}`;
       } catch (e) {
-        console.error("Quote error:", e);
+        console.error("Quote computation error:", e);
       }
     }
 
-    // 4. Trend Chart Rendering
+    // 6. Trend Visualizer Chart.js
     async function loadTrendChart() {
       try {
         const res = await fetch(`/api/market/trend-indicator?state=${encodeURIComponent(activeState)}&commodity=${encodeURIComponent(activeTrendCommodity)}`);
@@ -396,36 +513,38 @@
         
         const badge = document.getElementById('signalBadge');
         if (data.recommendation === 'BUY') {
-          badge.className = "w-3 h-3 rounded-full bg-emerald-400 animate-pulse";
+          badge.className = "w-3.5 h-3.5 rounded-full bg-emerald-400";
         } else if (data.recommendation === 'WAIT') {
-          badge.className = "w-3 h-3 rounded-full bg-rose-500 animate-pulse";
+          badge.className = "w-3.5 h-3.5 rounded-full bg-rose-500";
         } else {
-          badge.className = "w-3 h-3 rounded-full bg-amber-400";
+          badge.className = "w-3.5 h-3.5 rounded-full bg-amber-400";
         }
 
-        const ctx = document.getElementById('trendChart').getContext('2d');
+        const canvas = document.getElementById('trendChart');
+        if (!canvas) return;
+        const ctx = canvas.getContext('2d');
         if (trendChartInstance) trendChartInstance.destroy();
 
         trendChartInstance = new Chart(ctx, {
           type: 'line',
           data: {
-            labels: data.labels,
+            labels: data.labels && data.labels.length > 0 ? data.labels : ["Day 1", "Day 2", "Day 3", "Day 4", "Day 5"],
             datasets: [
               {
-                label: 'Spot Market (₹/MT)',
-                data: data.spot_prices,
+                label: `${activeTrendCommodity} Spot (₹/MT)`,
+                data: data.spot_prices && data.spot_prices.length > 0 ? data.spot_prices : [54000, 54200, 53800, 54100, 54050],
                 borderColor: '#10b981',
-                backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                backgroundColor: 'rgba(16, 185, 129, 0.12)',
                 borderWidth: 2.5,
                 fill: true,
-                tension: 0.25
+                tension: 0.3
               },
               {
                 label: 'Statutory SoR Baseline (₹/MT)',
-                data: data.statutory_sor,
+                data: data.statutory_sor && data.statutory_sor.length > 0 ? data.statutory_sor : [55000, 55000, 55000, 55000, 55000],
                 borderColor: '#64748b',
-                borderDash: [6, 6],
-                borderWidth: 1.5,
+                borderDash: [5, 5],
+                borderWidth: 1.8,
                 fill: false,
                 tension: 0
               }
@@ -438,7 +557,7 @@
               legend: { labels: { color: '#94a3b8', font: { size: 11, weight: 'bold' } } }
             },
             scales: {
-              x: { ticks: { color: '#64748b', maxTicksLimit: 6 }, grid: { color: 'rgba(51, 65, 85, 0.25)' } },
+              x: { ticks: { color: '#64748b', maxTicksLimit: 7 }, grid: { color: 'rgba(51, 65, 85, 0.25)' } },
               y: { ticks: { color: '#64748b' }, grid: { color: 'rgba(51, 65, 85, 0.25)' } }
             }
           }
@@ -448,7 +567,7 @@
       }
     }
 
-    // 5. House Estimator Calculation
+    // 7. House Estimator Sandbox
     function updateEstimator() {
       const area = parseFloat(document.getElementById('builtupArea').value) || 2000;
       const type = document.getElementById('structureType').value;
@@ -473,29 +592,41 @@
 
     function setTrendCommodity(c) {
       activeTrendCommodity = c;
-      document.getElementById('btnTrendSteel').className = c === 'Steel' ? 'px-3 py-1 rounded-lg text-xs font-semibold bg-emerald-600 text-white' : 'px-3 py-1 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700';
-      document.getElementById('btnTrendCement').className = c === 'Cement' ? 'px-3 py-1 rounded-lg text-xs font-semibold bg-emerald-600 text-white' : 'px-3 py-1 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700';
+      document.getElementById('btnTrendSteel').className = c === 'Steel' ? 'px-3 py-1 rounded-lg text-xs font-semibold bg-emerald-600 text-white shadow' : 'px-3 py-1 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700';
+      document.getElementById('btnTrendCement').className = c === 'Cement' ? 'px-3 py-1 rounded-lg text-xs font-semibold bg-emerald-600 text-white shadow' : 'px-3 py-1 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700';
       loadTrendChart();
     }
 
     // Event Listeners
-    document.getElementById('snapshotStateSelect').addEventListener('change', (e) => {
+    document.getElementById('stateSelect').addEventListener('change', async (e) => {
       activeState = e.target.value;
-      loadSnapshot(activeState);
-      loadTrendChart();
+      await updateCities(activeState);
+      await loadSnapshot(activeState);
+      await calculateDetailedQuote();
+      await loadTrendChart();
     });
 
-    document.getElementById('calcState').addEventListener('change', (e) => {
-      updateCities(e.target.value);
+    document.getElementById('calcCommodity').addEventListener('change', () => {
+      updateCommodityDropdowns();
+      calculateDetailedQuote();
     });
+
+    document.getElementById('calcTier').addEventListener('change', calculateDetailedQuote);
+    document.getElementById('calcGrade').addEventListener('change', calculateDetailedQuote);
+    document.getElementById('calcCity').addEventListener('change', () => {
+      updateHubBadge();
+      calculateDetailedQuote();
+    });
+    document.getElementById('calcLeadKm').addEventListener('input', calculateDetailedQuote);
 
     document.getElementById('builtupArea').addEventListener('input', updateEstimator);
     document.getElementById('structureType').addEventListener('change', updateEstimator);
 
     // Initial Startup
     window.addEventListener('DOMContentLoaded', async () => {
-      await loadSnapshot(activeState);
+      await initStates();
       await updateCities('Kerala');
+      await loadSnapshot('Kerala');
       await calculateDetailedQuote();
       await loadTrendChart();
     });
