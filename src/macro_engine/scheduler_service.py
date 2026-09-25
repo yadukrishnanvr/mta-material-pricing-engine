@@ -7,7 +7,8 @@ from macro_engine.database_manager import get_connection, save_scraped_rate
 from macro_engine.bourse_scrapers import (
     fetch_live_diesel_drift,
     fetch_steel_spot_feeds,
-    fetch_cement_spot_feeds
+    fetch_cement_spot_feeds,
+    fetch_aggregate_and_sand_feeds
 )
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
@@ -20,8 +21,9 @@ def run_periodic_market_settlement():
     Executes automated settlement:
     1. Scrapes latest OMC Diesel retail drift benchmarks.
     2. Collects TMT Mandi ex-plant indices and Cement wholesale feeds.
-    3. Normalizes units to metric standard (INR/MT or INR/Ltr).
-    4. Computes statutory SoR spread deltas and logs permanent audit ticks in Supabase PostgreSQL.
+    3. Collects Coarse Aggregate and M-Sand spot feeds.
+    4. Normalizes units to metric standard (INR/MT or INR/Ltr).
+    5. Computes statutory SoR spread deltas and logs permanent audit ticks in Supabase PostgreSQL.
     """
     logger.info("[CRON] Executing scheduled multi-bourse market settlement cycle...")
     conn = None
@@ -57,7 +59,7 @@ def run_periodic_market_settlement():
                 statutory_sor=s["statutory_sor"],
                 raw_price=s["raw_price"],
                 raw_unit=s["raw_unit"],
-                notes=s["notes"]
+                notes=s.get("notes", "")
             )
         logger.info(f"[CRON] Processed {len(steel_records)} live steel Mandi spot quotes.")
 
@@ -76,9 +78,28 @@ def run_periodic_market_settlement():
                 statutory_sor=c["statutory_sor"],
                 raw_price=c["raw_price"],
                 raw_unit=c["raw_unit"],
-                notes=c["notes"]
+                notes=c.get("notes", "")
             )
         logger.info(f"[CRON] Processed {len(cement_records)} live cement wholesale quotes.")
+
+        # 4. Update Aggregate & M-Sand Feeds
+        agg_records = fetch_aggregate_and_sand_feeds()
+        for a in agg_records:
+            save_scraped_rate(
+                state=a["state"],
+                commodity=a["commodity"],
+                brand=a["brand"],
+                tier=a["tier"],
+                standard=a["standard"],
+                spot_base_inr=a["spot_base_inr"],
+                source_name=a["source_name"],
+                source_url=a["source_url"],
+                statutory_sor=a["statutory_sor"],
+                raw_price=a["raw_price"],
+                raw_unit=a["raw_unit"],
+                notes=a.get("notes", "")
+            )
+        logger.info(f"[CRON] Processed {len(agg_records)} live aggregate and M-Sand spot quotes.")
         logger.info("[CRON] Settlement cycle finished with zero errors. All audits committed to PostgreSQL.")
 
     except Exception as e:
